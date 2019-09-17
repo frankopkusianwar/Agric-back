@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/style.css" rel="stylesheet" type="text/css">
+  <link href=".css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/AnalyticsController.php.html#9">App\Http\Controllers\AnalyticsController</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Services/GoogleClient.php.html#5">App\Services\GoogleClient</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Services/SocialMedia.php.html#15">App\Services\SocialMedia</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="Rules/ValidateInputFields.php.html#7">App\Rules\ValidateInputFields</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Http/Middleware/ValidateParams.php.html#7">App\Http\Middleware\ValidateParams</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#7">App\Providers\AppServiceProvider</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Rules/PhoneNumber.php.html#8">App\Rules\PhoneNumber</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Services/SocialMedia.php.html#15">App\Services\SocialMedia</a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="Rules/ValidateInputFields.php.html#7">App\Rules\ValidateInputFields</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Http/Middleware/ValidateParams.php.html#7">App\Http\Middleware\ValidateParams</a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#7">App\Providers\AppServiceProvider</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Utils/MockData.php.html#86"><abbr title="App\Utils\MockData::getInvalidData">getInvalidData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/PhoneNumber.php.html#32"><abbr title="App\Rules\PhoneNumber::message">message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/GoogleClient.php.html#7"><abbr title="App\Services\GoogleClient::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/userName.php.html#37"><abbr title="App\Rules\UserName::message">message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/ValidateInputFields.php.html#33"><abbr title="App\Rules\ValidateInputFields::message">message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/ValidateInputFields.php.html#23"><abbr title="App\Rules\ValidateInputFields::passes">passes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#215"><abbr title="App\Http\Controllers\UserController::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AnalyticsController.php.html#29"><abbr title="App\Http\Controllers\AnalyticsController::getNumberOfVistors">getNumberOfVistors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/SocialMedia.php.html#20"><abbr title="App\Services\SocialMedia::getTwitterSummary">getTwitterSummary</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Services/SocialMedia.php.html#52"><abbr title="App\Services\SocialMedia::getFacebookSummary">getFacebookSummary</abbr></a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="Http/Controllers/OrderController.php.html#39"><abbr title="App\Http\Controllers\OrderController::getOrdersByType">getOrdersByType</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Controllers/OurCropController.php.html#31"><abbr title="App\Http\Controllers\OurCropController::getEnterprises">getEnterprises</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Controllers/DistrictController.php.html#94"><abbr title="App\Http\Controllers\DistrictController::getDistricts">getDistricts</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Controllers/InputController.php.html#99"><abbr title="App\Http\Controllers\InputController::getInputs">getInputs</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Services/GoogleClient.php.html#16"><abbr title="App\Services\GoogleClient::initializeAnalytics">initializeAnalytics</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#93"><abbr title="App\Http\Controllers\ReportController::getYoutubeReport">getYoutubeReport</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#58"><abbr title="App\Http\Controllers\UserController::createUser">createUser</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#14"><abbr title="App\Providers\AppServiceProvider::register">register</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Middleware/ValidateParams.php.html#16"><abbr title="App\Http\Middleware\ValidateParams::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Controllers/InputController.php.html#28"><abbr title="App\Http\Controllers\InputController::getInputDetails">getInputDetails</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#164"><abbr title="App\Http\Controllers\UserController::getUser">getUser</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Controllers/AnalyticsController.php.html#19"><abbr title="App\Http\Controllers\AnalyticsController::__construct">__construct</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#44"><abbr title="App\Http\Controllers\AdminController::getAdmins">getAdmins</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminExtendedController.php.html#45"><abbr title="App\Http\Controllers\AdminExtendedController::deleteAccount">deleteAccount</abbr></a></td><td class="text-right">69%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Services/SocialMedia.php.html#52"><abbr title="App\Services\SocialMedia::getFacebookSummary">getFacebookSummary</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#215"><abbr title="App\Http\Controllers\UserController::getUsers">getUsers</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/AdminExtendedController.php.html#45"><abbr title="App\Http\Controllers\AdminExtendedController::deleteAccount">deleteAccount</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#58"><abbr title="App\Http\Controllers\UserController::createUser">createUser</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Services/SocialMedia.php.html#20"><abbr title="App\Services\SocialMedia::getTwitterSummary">getTwitterSummary</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#44"><abbr title="App\Http\Controllers\AdminController::getAdmins">getAdmins</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/InputController.php.html#28"><abbr title="App\Http\Controllers\InputController::getInputDetails">getInputDetails</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#164"><abbr title="App\Http\Controllers\UserController::getUser">getUser</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Http/Controllers/DistrictController.php.html#94"><abbr title="App\Http\Controllers\DistrictController::getDistricts">getDistricts</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Controllers/InputController.php.html#99"><abbr title="App\Http\Controllers\InputController::getInputs">getInputs</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Controllers/OrderController.php.html#39"><abbr title="App\Http\Controllers\OrderController::getOrdersByType">getOrdersByType</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Controllers/OurCropController.php.html#31"><abbr title="App\Http\Controllers\OurCropController::getEnterprises">getEnterprises</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#93"><abbr title="App\Http\Controllers\ReportController::getYoutubeReport">getYoutubeReport</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Middleware/ValidateParams.php.html#16"><abbr title="App\Http\Middleware\ValidateParams::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#14"><abbr title="App\Providers\AppServiceProvider::register">register</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.3.7</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> and <a href="https://phpunit.de/">PHPUnit 7.5.15</a> at Fri Sep 13 18:33:58 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,1,0,0,0,2,4,3,12,7,61], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,1,0,1,5,9,14,25,3,170], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"Events\/Event.php.html#7\">App\\Events\\Event<\/a>"],[100,2,"<a href=\"Exceptions\/Handler.php.html#12\">App\\Exceptions\\Handler<\/a>"],[100,4,"<a href=\"Http\/Controllers\/ActivityController.php.html#15\">App\\Http\\Controllers\\ActivityController<\/a>"],[86.25,25,"<a href=\"Http\/Controllers\/AdminController.php.html#17\">App\\Http\\Controllers\\AdminController<\/a>"],[89.0625,14,"<a href=\"Http\/Controllers\/AdminExtendedController.php.html#18\">App\\Http\\Controllers\\AdminExtendedController<\/a>"],[86.66666666666667,12,"<a href=\"Http\/Controllers\/AgronomicalController.php.html#9\">App\\Http\\Controllers\\AgronomicalController<\/a>"],[15.384615384615385,2,"<a href=\"Http\/Controllers\/AnalyticsController.php.html#9\">App\\Http\\Controllers\\AnalyticsController<\/a>"],[85.24590163934425,16,"<a href=\"Http\/Controllers\/AuthController.php.html#16\">App\\Http\\Controllers\\AuthController<\/a>"],[100,4,"<a href=\"Http\/Controllers\/ContactController.php.html#9\">App\\Http\\Controllers\\ContactController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#7\">App\\Http\\Controllers\\Controller<\/a>"],[90,5,"<a href=\"Http\/Controllers\/DevtPartnerController.php.html#13\">App\\Http\\Controllers\\DevtPartnerController<\/a>"],[86.95652173913044,16,"<a href=\"Http\/Controllers\/DiagnosisController.php.html#12\">App\\Http\\Controllers\\DiagnosisController<\/a>"],[90.9090909090909,12,"<a href=\"Http\/Controllers\/DistrictController.php.html#13\">App\\Http\\Controllers\\DistrictController<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FarmerController.php.html#9\">App\\Http\\Controllers\\FarmerController<\/a>"],[87.5,6,"<a href=\"Http\/Controllers\/FarmerProduceController.php.html#12\">App\\Http\\Controllers\\FarmerProduceController<\/a>"],[100,3,"<a href=\"Http\/Controllers\/FarmersOrderController.php.html#11\">App\\Http\\Controllers\\FarmersOrderController<\/a>"],[84.90566037735849,17,"<a href=\"Http\/Controllers\/InputController.php.html#13\">App\\Http\\Controllers\\InputController<\/a>"],[71.42857142857143,4,"<a href=\"Http\/Controllers\/MapCordinatesController.php.html#12\">App\\Http\\Controllers\\MapCordinatesController<\/a>"],[100,2,"<a href=\"Http\/Controllers\/MasterAgentController.php.html#12\">App\\Http\\Controllers\\MasterAgentController<\/a>"],[84.61538461538461,9,"<a href=\"Http\/Controllers\/OrderController.php.html#12\">App\\Http\\Controllers\\OrderController<\/a>"],[87.8048780487805,16,"<a href=\"Http\/Controllers\/OurCropController.php.html#11\">App\\Http\\Controllers\\OurCropController<\/a>"],[78.37837837837837,13,"<a href=\"Http\/Controllers\/ReportController.php.html#16\">App\\Http\\Controllers\\ReportController<\/a>"],[92.5925925925926,3,"<a href=\"Http\/Controllers\/TotalPaymentController.php.html#14\">App\\Http\\Controllers\\TotalPaymentController<\/a>"],[74.57627118644068,33,"<a href=\"Http\/Controllers\/UserController.php.html#16\">App\\Http\\Controllers\\UserController<\/a>"],[100,5,"<a href=\"Http\/Middleware\/Authenticate.php.html#8\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,3,"<a href=\"Http\/Middleware\/AuthenticateAdmin.php.html#8\">App\\Http\\Middleware\\AuthenticateAdmin<\/a>"],[85.71428571428571,3,"<a href=\"Http\/Middleware\/Cors.php.html#6\">App\\Http\\Middleware\\Cors<\/a>"],[100,4,"<a href=\"Http\/Middleware\/DocumentExist.php.html#7\">App\\Http\\Middleware\\DocumentExist<\/a>"],[100,3,"<a href=\"Http\/Middleware\/ValidateDiagnosisCategory.php.html#7\">App\\Http\\Middleware\\ValidateDiagnosisCategory<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/ValidateParams.php.html#7\">App\\Http\\Middleware\\ValidateParams<\/a>"],[100,0,"<a href=\"Jobs\/Job.php.html#10\">App\\Jobs\\Job<\/a>"],[100,0,"<a href=\"Models\/Account.php.html#6\">App\\Models\\Account<\/a>"],[100,0,"<a href=\"Models\/ActivityLog.php.html#6\">App\\Models\\ActivityLog<\/a>"],[100,1,"<a href=\"Models\/Admin.php.html#7\">App\\Models\\Admin<\/a>"],[100,0,"<a href=\"Models\/CropInfo.php.html#6\">App\\Models\\CropInfo<\/a>"],[100,0,"<a href=\"Models\/CustomExpense.php.html#6\">App\\Models\\CustomExpense<\/a>"],[100,0,"<a href=\"Models\/CustomIncome.php.html#7\">App\\Models\\CustomIncome<\/a>"],[100,3,"<a href=\"Models\/DevtPartner.php.html#8\">App\\Models\\DevtPartner<\/a>"],[100,0,"<a href=\"Models\/Diagnosis.php.html#6\">App\\Models\\Diagnosis<\/a>"],[100,0,"<a href=\"Models\/District.php.html#6\">App\\Models\\District<\/a>"],[100,0,"<a href=\"Models\/Expense.php.html#6\">App\\Models\\Expense<\/a>"],[100,0,"<a href=\"Models\/Farmer.php.html#6\">App\\Models\\Farmer<\/a>"],[100,3,"<a href=\"Models\/Government.php.html#8\">App\\Models\\Government<\/a>"],[100,0,"<a href=\"Models\/Income.php.html#6\">App\\Models\\Income<\/a>"],[100,0,"<a href=\"Models\/InputCategory.php.html#5\">App\\Models\\InputCategory<\/a>"],[100,0,"<a href=\"Models\/InputOrder.php.html#5\">App\\Models\\InputOrder<\/a>"],[100,0,"<a href=\"Models\/InputSupplier.php.html#5\">App\\Models\\InputSupplier<\/a>"],[100,0,"<a href=\"Models\/Insurance.php.html#6\">App\\Models\\Insurance<\/a>"],[100,0,"<a href=\"Models\/MapCoordinate.php.html#5\">App\\Models\\MapCoordinate<\/a>"],[100,3,"<a href=\"Models\/MasterAgent.php.html#8\">App\\Models\\MasterAgent<\/a>"],[100,0,"<a href=\"Models\/MilkLedger.php.html#7\">App\\Models\\MilkLedger<\/a>"],[100,3,"<a href=\"Models\/OffTaker.php.html#10\">App\\Models\\OffTaker<\/a>"],[100,1,"<a href=\"Models\/Order.php.html#5\">App\\Models\\Order<\/a>"],[100,0,"<a href=\"Models\/OurCrop.php.html#6\">App\\Models\\OurCrop<\/a>"],[100,0,"<a href=\"Models\/Planting.php.html#5\">App\\Models\\Planting<\/a>"],[100,0,"<a href=\"Models\/RequestPassword.php.html#6\">App\\Models\\RequestPassword<\/a>"],[100,0,"<a href=\"Models\/SoilTest.php.html#5\">App\\Models\\SoilTest<\/a>"],[100,0,"<a href=\"Models\/Spraying.php.html#7\">App\\Models\\Spraying<\/a>"],[100,0,"<a href=\"Models\/User.php.html#7\">App\\Models\\User<\/a>"],[100,0,"<a href=\"Models\/VillageAgent.php.html#7\">App\\Models\\VillageAgent<\/a>"],[66.66666666666666,2,"<a href=\"Providers\/AppServiceProvider.php.html#7\">App\\Providers\\AppServiceProvider<\/a>"],[100,4,"<a href=\"Rules\/AccountType.php.html#6\">App\\Rules\\AccountType<\/a>"],[100,4,"<a href=\"Rules\/AdminRole.php.html#6\">App\\Rules\\AdminRole<\/a>"],[100,5,"<a href=\"Rules\/Agronomicalinfo.php.html#7\">App\\Rules\\AgronomicalInfo<\/a>"],[100,2,"<a href=\"Rules\/District.php.html#7\">App\\Rules\\District<\/a>"],[100,4,"<a href=\"Rules\/Email.php.html#7\">App\\Rules\\Email<\/a>"],[66.66666666666666,2,"<a href=\"Rules\/PhoneNumber.php.html#8\">App\\Rules\\PhoneNumber<\/a>"],[100,2,"<a href=\"Rules\/ValidateInputCategory.php.html#7\">App\\Rules\\ValidateInputCategory<\/a>"],[63.63636363636363,7,"<a href=\"Rules\/ValidateInputFields.php.html#7\">App\\Rules\\ValidateInputFields<\/a>"],[100,4,"<a href=\"Rules\/ValueChain.php.html#6\">App\\Rules\\ValueChain<\/a>"],[100,5,"<a href=\"Rules\/emailUpdate.php.html#8\">App\\Rules\\EmailUpdate<\/a>"],[83.33333333333334,4,"<a href=\"Rules\/userName.php.html#7\">App\\Rules\\UserName<\/a>"],[50,2,"<a href=\"Services\/GoogleClient.php.html#5\">App\\Services\\GoogleClient<\/a>"],[88.23529411764706,4,"<a href=\"Services\/GoogleStorage.php.html#12\">App\\Services\\GoogleStorage<\/a>"],[51.61290322580645,9,"<a href=\"Services\/SocialMedia.php.html#15\">App\\Services\\SocialMedia<\/a>"],[100,2,"<a href=\"Utils\/AgronomicalInfoMockData.php.html#5\">App\\Utils\\AgronomicalInfoMockData<\/a>"],[100,3,"<a href=\"Utils\/CropMockData.php.html#4\">App\\Utils\\CropMockData<\/a>"],[90,10,"<a href=\"Utils\/DateRequestFilter.php.html#8\">App\\Utils\\DateRequestFilter<\/a>"],[100,4,"<a href=\"Utils\/DiagnosisMockData.php.html#6\">App\\Utils\\DiagnosisMockData<\/a>"],[100,10,"<a href=\"Utils\/Email.php.html#8\">App\\Utils\\Email<\/a>"],[97.1830985915493,27,"<a href=\"Utils\/Helpers.php.html#16\">App\\Utils\\Helpers<\/a>"],[100,0,"<a href=\"Utils\/HelpersExtension.php.html#7\">App\\Utils\\HelpersExtension<\/a>"],[100,2,"<a href=\"Utils\/InputData.php.html#5\">App\\Utils\\InputData<\/a>"],[100,2,"<a href=\"Utils\/InputSupplierHelpers.php.html#8\">App\\Utils\\InputSupplierHelpers<\/a>"],[92.85714285714286,12,"<a href=\"Utils\/MockData.php.html#7\">App\\Utils\\MockData<\/a>"],[100,1,"<a href=\"Utils\/OrderMockData.php.html#6\">App\\Utils\\OrderMockData<\/a>"],[97.9381443298969,27,"<a href=\"Utils\/Queries.php.html#18\">App\\Utils\\Queries<\/a>"],[100,0,"<a href=\"Utils\/QueriesExtension.php.html#7\">App\\Utils\\QueriesExtension<\/a>"],[100,15,"<a href=\"Utils\/UserMockData.php.html#7\">App\\Utils\\UserMockData<\/a>"],[100,16,"<a href=\"Utils\/Validation.php.html#17\">App\\Utils\\Validation<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Exceptions\/Handler.php.html#34\">App\\Exceptions\\Handler::report<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#46\">App\\Exceptions\\Handler::render<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ActivityController.php.html#27\">App\\Http\\Controllers\\ActivityController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ActivityController.php.html#38\">App\\Http\\Controllers\\ActivityController::getActivityLog<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ActivityController.php.html#46\">App\\Http\\Controllers\\ActivityController::getPercentages<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ActivityController.php.html#61\">App\\Http\\Controllers\\ActivityController::getActivitySummary<\/a>"],[100,1,"<a href=\"Http\/Controllers\/AdminController.php.html#31\">App\\Http\\Controllers\\AdminController::__construct<\/a>"],[66.66666666666666,3,"<a href=\"Http\/Controllers\/AdminController.php.html#44\">App\\Http\\Controllers\\AdminController::getAdmins<\/a>"],[83.33333333333334,5,"<a href=\"Http\/Controllers\/AdminController.php.html#64\">App\\Http\\Controllers\\AdminController::createAdmin<\/a>"],[100,3,"<a href=\"Http\/Controllers\/AdminController.php.html#91\">App\\Http\\Controllers\\AdminController::changePassword<\/a>"],[90.47619047619048,7,"<a href=\"Http\/Controllers\/AdminController.php.html#113\">App\\Http\\Controllers\\AdminController::getTopAgents<\/a>"],[77.77777777777779,3,"<a href=\"Http\/Controllers\/AdminController.php.html#144\">App\\Http\\Controllers\\AdminController::villageAgent<\/a>"],[77.77777777777779,3,"<a href=\"Http\/Controllers\/AdminController.php.html#161\">App\\Http\\Controllers\\AdminController::masterAgent<\/a>"],[100,1,"<a href=\"Http\/Controllers\/AdminExtendedController.php.html#32\">App\\Http\\Controllers\\AdminExtendedController::__construct<\/a>"],[69.23076923076923,4,"<a href=\"Http\/Controllers\/AdminExtendedController.php.html#45\">App\\Http\\Controllers\\AdminExtendedController::deleteAccount<\/a>"],[84.21052631578947,5,"<a href=\"Http\/Controllers\/AdminExtendedController.php.html#72\">App\\Http\\Controllers\\AdminExtendedController::editAccount<\/a>"],[100,2,"<a href=\"Http\/Controllers\/AdminExtendedController.php.html#106\">App\\Http\\Controllers\\AdminExtendedController::editVillageAgents<\/a>"],[100,2,"<a href=\"Http\/Controllers\/AdminExtendedController.php.html#124\">App\\Http\\Controllers\\AdminExtendedController::getUsers<\/a>"],[100,1,"<a href=\"Http\/Controllers\/AgronomicalController.php.html#14\">App\\Http\\Controllers\\AgronomicalController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/AgronomicalController.php.html#25\">App\\Http\\Controllers\\AgronomicalController::getSpecificId<\/a>"],[100,3,"<a href=\"Http\/Controllers\/AgronomicalController.php.html#31\">App\\Http\\Controllers\\AgronomicalController::imageUpload<\/a>"],[86.66666666666667,4,"<a href=\"Http\/Controllers\/AgronomicalController.php.html#55\">App\\Http\\Controllers\\AgronomicalController::updateAgronomicalInfo<\/a>"],[75,3,"<a href=\"Http\/Controllers\/AgronomicalController.php.html#87\">App\\Http\\Controllers\\AgronomicalController::deleteAgronomicalInfo<\/a>"],[66.66666666666666,1,"<a href=\"Http\/Controllers\/AnalyticsController.php.html#19\">App\\Http\\Controllers\\AnalyticsController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AnalyticsController.php.html#29\">App\\Http\\Controllers\\AnalyticsController::getNumberOfVistors<\/a>"],[100,1,"<a href=\"Http\/Controllers\/AuthController.php.html#33\">App\\Http\\Controllers\\AuthController::__construct<\/a>"],[82.35294117647058,5,"<a href=\"Http\/Controllers\/AuthController.php.html#47\">App\\Http\\Controllers\\AuthController::authenticate<\/a>"],[87.5,3,"<a href=\"Http\/Controllers\/AuthController.php.html#82\">App\\Http\\Controllers\\AuthController::forgotPassword<\/a>"],[85.71428571428571,4,"<a href=\"Http\/Controllers\/AuthController.php.html#114\">App\\Http\\Controllers\\AuthController::confirmPassword<\/a>"],[77.77777777777779,3,"<a href=\"Http\/Controllers\/AuthController.php.html#143\">App\\Http\\Controllers\\AuthController::verifyResetPasswordToken<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ContactController.php.html#26\">App\\Http\\Controllers\\ContactController::__construct<\/a>"],[100,3,"<a href=\"Http\/Controllers\/ContactController.php.html#38\">App\\Http\\Controllers\\ContactController::sendContactForm<\/a>"],[100,1,"<a href=\"Http\/Controllers\/DevtPartnerController.php.html#28\">App\\Http\\Controllers\\DevtPartnerController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/DevtPartnerController.php.html#43\">App\\Http\\Controllers\\DevtPartnerController::getDevtPartners<\/a>"],[76.92307692307693,3,"<a href=\"Http\/Controllers\/DevtPartnerController.php.html#64\">App\\Http\\Controllers\\DevtPartnerController::createDevtPartner<\/a>"],[100,1,"<a href=\"Http\/Controllers\/DiagnosisController.php.html#22\">App\\Http\\Controllers\\DiagnosisController::__construct<\/a>"],[77.77777777777779,2,"<a href=\"Http\/Controllers\/DiagnosisController.php.html#34\">App\\Http\\Controllers\\DiagnosisController::getDiagnosis<\/a>"],[100,3,"<a href=\"Http\/Controllers\/DiagnosisController.php.html#59\">App\\Http\\Controllers\\DiagnosisController::deleteDiagnosis<\/a>"],[80,5,"<a href=\"Http\/Controllers\/DiagnosisController.php.html#83\">App\\Http\\Controllers\\DiagnosisController::editDiagnosisInformation<\/a>"],[87.5,5,"<a href=\"Http\/Controllers\/DiagnosisController.php.html#118\">App\\Http\\Controllers\\DiagnosisController::createDiagnosis<\/a>"],[100,1,"<a href=\"Http\/Controllers\/DistrictController.php.html#22\">App\\Http\\Controllers\\DistrictController::__construct<\/a>"],[100,5,"<a href=\"Http\/Controllers\/DistrictController.php.html#34\">App\\Http\\Controllers\\DistrictController::getTopDistricts<\/a>"],[86.66666666666667,4,"<a href=\"Http\/Controllers\/DistrictController.php.html#64\">App\\Http\\Controllers\\DistrictController::getTopPerformingDistricts<\/a>"],[50,2,"<a href=\"Http\/Controllers\/DistrictController.php.html#94\">App\\Http\\Controllers\\DistrictController::getDistricts<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FarmerController.php.html#17\">App\\Http\\Controllers\\FarmerController::getFarmers<\/a>"],[87.5,6,"<a href=\"Http\/Controllers\/FarmerProduceController.php.html#19\">App\\Http\\Controllers\\FarmerProduceController::getTopFarmProduce<\/a>"],[100,2,"<a href=\"Http\/Controllers\/FarmersOrderController.php.html#17\">App\\Http\\Controllers\\FarmersOrderController::getTransformedOrders<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FarmersOrderController.php.html#38\">App\\Http\\Controllers\\FarmersOrderController::getNumberOfFarmersWhoOrderedDifferentInputCategories<\/a>"],[100,1,"<a href=\"Http\/Controllers\/InputController.php.html#18\">App\\Http\\Controllers\\InputController::__construct<\/a>"],[66.66666666666666,3,"<a href=\"Http\/Controllers\/InputController.php.html#28\">App\\Http\\Controllers\\InputController::getInputDetails<\/a>"],[100,4,"<a href=\"Http\/Controllers\/InputController.php.html#44\">App\\Http\\Controllers\\InputController::updateInput<\/a>"],[77.77777777777779,3,"<a href=\"Http\/Controllers\/InputController.php.html#80\">App\\Http\\Controllers\\InputController::deleteInput<\/a>"],[50,2,"<a href=\"Http\/Controllers\/InputController.php.html#99\">App\\Http\\Controllers\\InputController::getInputs<\/a>"],[87.5,4,"<a href=\"Http\/Controllers\/InputController.php.html#112\">App\\Http\\Controllers\\InputController::createInput<\/a>"],[71.42857142857143,4,"<a href=\"Http\/Controllers\/MapCordinatesController.php.html#20\">App\\Http\\Controllers\\MapCordinatesController::getTotalAcreage<\/a>"],[100,1,"<a href=\"Http\/Controllers\/MasterAgentController.php.html#21\">App\\Http\\Controllers\\MasterAgentController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/MasterAgentController.php.html#32\">App\\Http\\Controllers\\MasterAgentController::getMasterAgents<\/a>"],[100,1,"<a href=\"Http\/Controllers\/OrderController.php.html#16\">App\\Http\\Controllers\\OrderController::__construct<\/a>"],[100,2,"<a href=\"Http\/Controllers\/OrderController.php.html#25\">App\\Http\\Controllers\\OrderController::getOrders<\/a>"],[50,2,"<a href=\"Http\/Controllers\/OrderController.php.html#39\">App\\Http\\Controllers\\OrderController::getOrdersByType<\/a>"],[84.61538461538461,3,"<a href=\"Http\/Controllers\/OrderController.php.html#53\">App\\Http\\Controllers\\OrderController::getInputsStock<\/a>"],[100,1,"<a href=\"Http\/Controllers\/OrderController.php.html#79\">App\\Http\\Controllers\\OrderController::deleteOrderOfId<\/a>"],[100,1,"<a href=\"Http\/Controllers\/OurCropController.php.html#19\">App\\Http\\Controllers\\OurCropController::__construct<\/a>"],[50,2,"<a href=\"Http\/Controllers\/OurCropController.php.html#31\">App\\Http\\Controllers\\OurCropController::getEnterprises<\/a>"],[100,3,"<a href=\"Http\/Controllers\/OurCropController.php.html#45\">App\\Http\\Controllers\\OurCropController::addCrop<\/a>"],[100,1,"<a href=\"Http\/Controllers\/OurCropController.php.html#69\">App\\Http\\Controllers\\OurCropController::getCrops<\/a>"],[71.42857142857143,2,"<a href=\"Http\/Controllers\/OurCropController.php.html#80\">App\\Http\\Controllers\\OurCropController::getCrop<\/a>"],[85.71428571428571,3,"<a href=\"Http\/Controllers\/OurCropController.php.html#99\">App\\Http\\Controllers\\OurCropController::deleteCrop<\/a>"],[100,4,"<a href=\"Http\/Controllers\/OurCropController.php.html#118\">App\\Http\\Controllers\\OurCropController::editCrop<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ReportController.php.html#24\">App\\Http\\Controllers\\ReportController::__construct<\/a>"],[81.81818181818183,4,"<a href=\"Http\/Controllers\/ReportController.php.html#35\">App\\Http\\Controllers\\ReportController::getMostOrdered<\/a>"],[81.81818181818183,2,"<a href=\"Http\/Controllers\/ReportController.php.html#58\">App\\Http\\Controllers\\ReportController::getFarmerAgentsOrderStatistics<\/a>"],[75,2,"<a href=\"Http\/Controllers\/ReportController.php.html#79\">App\\Http\\Controllers\\ReportController::getTwitterReport<\/a>"],[60,2,"<a href=\"Http\/Controllers\/ReportController.php.html#93\">App\\Http\\Controllers\\ReportController::getYoutubeReport<\/a>"],[75,2,"<a href=\"Http\/Controllers\/ReportController.php.html#108\">App\\Http\\Controllers\\ReportController::getFacebookReport<\/a>"],[100,1,"<a href=\"Http\/Controllers\/TotalPaymentController.php.html#16\">App\\Http\\Controllers\\TotalPaymentController::getPaymentSum<\/a>"],[90.47619047619048,2,"<a href=\"Http\/Controllers\/TotalPaymentController.php.html#31\">App\\Http\\Controllers\\TotalPaymentController::getTotalPayment<\/a>"],[100,1,"<a href=\"Http\/Controllers\/UserController.php.html#26\">App\\Http\\Controllers\\UserController::__construct<\/a>"],[80,3,"<a href=\"Http\/Controllers\/UserController.php.html#37\">App\\Http\\Controllers\\UserController::requestAccount<\/a>"],[62.5,3,"<a href=\"Http\/Controllers\/UserController.php.html#58\">App\\Http\\Controllers\\UserController::createUser<\/a>"],[84.61538461538461,2,"<a href=\"Http\/Controllers\/UserController.php.html#73\">App\\Http\\Controllers\\UserController::getAllActiveUsers<\/a>"],[81.81818181818183,2,"<a href=\"Http\/Controllers\/UserController.php.html#91\">App\\Http\\Controllers\\UserController::getActiveMobileUsers<\/a>"],[100,4,"<a href=\"Http\/Controllers\/UserController.php.html#110\">App\\Http\\Controllers\\UserController::isInvalidVaData<\/a>"],[100,3,"<a href=\"Http\/Controllers\/UserController.php.html#125\">App\\Http\\Controllers\\UserController::getVaFromInput<\/a>"],[85.71428571428571,4,"<a href=\"Http\/Controllers\/UserController.php.html#145\">App\\Http\\Controllers\\UserController::addVillageAgents<\/a>"],[66.66666666666666,3,"<a href=\"Http\/Controllers\/UserController.php.html#164\">App\\Http\\Controllers\\UserController::getUser<\/a>"],[88.23529411764706,6,"<a href=\"Http\/Controllers\/UserController.php.html#181\">App\\Http\\Controllers\\UserController::accountAction<\/a>"],[0,2,"<a href=\"Http\/Controllers\/UserController.php.html#215\">App\\Http\\Controllers\\UserController::getUsers<\/a>"],[100,5,"<a href=\"Http\/Middleware\/Authenticate.php.html#17\">App\\Http\\Middleware\\Authenticate::handle<\/a>"],[100,1,"<a href=\"Http\/Middleware\/AuthenticateAdmin.php.html#13\">App\\Http\\Middleware\\AuthenticateAdmin::__construct<\/a>"],[100,2,"<a href=\"Http\/Middleware\/AuthenticateAdmin.php.html#25\">App\\Http\\Middleware\\AuthenticateAdmin::handle<\/a>"],[85.71428571428571,3,"<a href=\"Http\/Middleware\/Cors.php.html#15\">App\\Http\\Middleware\\Cors::handle<\/a>"],[100,1,"<a href=\"Http\/Middleware\/DocumentExist.php.html#14\">App\\Http\\Middleware\\DocumentExist::__construct<\/a>"],[100,3,"<a href=\"Http\/Middleware\/DocumentExist.php.html#26\">App\\Http\\Middleware\\DocumentExist::handle<\/a>"],[100,3,"<a href=\"Http\/Middleware\/ValidateDiagnosisCategory.php.html#16\">App\\Http\\Middleware\\ValidateDiagnosisCategory::handle<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/ValidateParams.php.html#16\">App\\Http\\Middleware\\ValidateParams::handle<\/a>"],[100,1,"<a href=\"Models\/Admin.php.html#53\">App\\Models\\Admin::setPasswordAttribute<\/a>"],[100,2,"<a href=\"Models\/DevtPartner.php.html#101\">App\\Models\\DevtPartner::__set<\/a>"],[100,1,"<a href=\"Models\/DevtPartner.php.html#114\">App\\Models\\DevtPartner::setPasswordAttribute<\/a>"],[100,2,"<a href=\"Models\/Government.php.html#77\">App\\Models\\Government::__set<\/a>"],[100,1,"<a href=\"Models\/Government.php.html#90\">App\\Models\\Government::setPasswordAttribute<\/a>"],[100,2,"<a href=\"Models\/MasterAgent.php.html#94\">App\\Models\\MasterAgent::__set<\/a>"],[100,1,"<a href=\"Models\/MasterAgent.php.html#107\">App\\Models\\MasterAgent::setPasswordAttribute<\/a>"],[100,2,"<a href=\"Models\/OffTaker.php.html#83\">App\\Models\\OffTaker::__set<\/a>"],[100,1,"<a href=\"Models\/OffTaker.php.html#96\">App\\Models\\OffTaker::setPasswordAttribute<\/a>"],[100,1,"<a href=\"Models\/Order.php.html#35\">App\\Models\\Order::queryOrdersByStatus<\/a>"],[66.66666666666666,2,"<a href=\"Providers\/AppServiceProvider.php.html#14\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,3,"<a href=\"Rules\/AccountType.php.html#16\">App\\Rules\\AccountType::passes<\/a>"],[100,1,"<a href=\"Rules\/AccountType.php.html#25\">App\\Rules\\AccountType::message<\/a>"],[100,3,"<a href=\"Rules\/AdminRole.php.html#17\">App\\Rules\\AdminRole::passes<\/a>"],[100,1,"<a href=\"Rules\/AdminRole.php.html#27\">App\\Rules\\AdminRole::message<\/a>"],[100,4,"<a href=\"Rules\/Agronomicalinfo.php.html#17\">App\\Rules\\AgronomicalInfo::passes<\/a>"],[100,1,"<a href=\"Rules\/Agronomicalinfo.php.html#27\">App\\Rules\\AgronomicalInfo::message<\/a>"],[100,1,"<a href=\"Rules\/District.php.html#17\">App\\Rules\\District::passes<\/a>"],[100,1,"<a href=\"Rules\/District.php.html#30\">App\\Rules\\District::message<\/a>"],[100,1,"<a href=\"Rules\/Email.php.html#11\">App\\Rules\\Email::__construct<\/a>"],[100,2,"<a href=\"Rules\/Email.php.html#24\">App\\Rules\\Email::passes<\/a>"],[100,1,"<a href=\"Rules\/Email.php.html#36\">App\\Rules\\Email::message<\/a>"],[100,1,"<a href=\"Rules\/PhoneNumber.php.html#21\">App\\Rules\\PhoneNumber::passes<\/a>"],[0,1,"<a href=\"Rules\/PhoneNumber.php.html#32\">App\\Rules\\PhoneNumber::message<\/a>"],[100,1,"<a href=\"Rules\/ValidateInputCategory.php.html#18\">App\\Rules\\ValidateInputCategory::passes<\/a>"],[100,1,"<a href=\"Rules\/ValidateInputCategory.php.html#28\">App\\Rules\\ValidateInputCategory::message<\/a>"],[100,1,"<a href=\"Rules\/ValidateInputFields.php.html#11\">App\\Rules\\ValidateInputFields::__construct<\/a>"],[0,1,"<a href=\"Rules\/ValidateInputFields.php.html#23\">App\\Rules\\ValidateInputFields::passes<\/a>"],[0,1,"<a href=\"Rules\/ValidateInputFields.php.html#33\">App\\Rules\\ValidateInputFields::message<\/a>"],[71.42857142857143,4,"<a href=\"Rules\/ValidateInputFields.php.html#38\">App\\Rules\\ValidateInputFields::isEmpty<\/a>"],[100,3,"<a href=\"Rules\/ValueChain.php.html#16\">App\\Rules\\ValueChain::passes<\/a>"],[100,1,"<a href=\"Rules\/ValueChain.php.html#25\">App\\Rules\\ValueChain::message<\/a>"],[100,1,"<a href=\"Rules\/emailUpdate.php.html#13\">App\\Rules\\EmailUpdate::__construct<\/a>"],[100,3,"<a href=\"Rules\/emailUpdate.php.html#27\">App\\Rules\\EmailUpdate::passes<\/a>"],[100,1,"<a href=\"Rules\/emailUpdate.php.html#39\">App\\Rules\\EmailUpdate::message<\/a>"],[100,1,"<a href=\"Rules\/userName.php.html#12\">App\\Rules\\UserName::__construct<\/a>"],[100,2,"<a href=\"Rules\/userName.php.html#26\">App\\Rules\\UserName::passes<\/a>"],[0,1,"<a href=\"Rules\/userName.php.html#37\">App\\Rules\\UserName::message<\/a>"],[0,1,"<a href=\"Services\/GoogleClient.php.html#7\">App\\Services\\GoogleClient::__construct<\/a>"],[57.14285714285714,1,"<a href=\"Services\/GoogleClient.php.html#16\">App\\Services\\GoogleClient::initializeAnalytics<\/a>"],[100,1,"<a href=\"Services\/GoogleStorage.php.html#21\">App\\Services\\GoogleStorage::getBucketInstance<\/a>"],[75,2,"<a href=\"Services\/GoogleStorage.php.html#37\">App\\Services\\GoogleStorage::uploadImage<\/a>"],[100,1,"<a href=\"Services\/GoogleStorage.php.html#58\">App\\Services\\GoogleStorage::deleteImage<\/a>"],[28.57142857142857,2,"<a href=\"Services\/SocialMedia.php.html#20\">App\\Services\\SocialMedia::getTwitterSummary<\/a>"],[85.71428571428571,2,"<a href=\"Services\/SocialMedia.php.html#37\">App\\Services\\SocialMedia::getYoutubeSummary<\/a>"],[47.05882352941176,5,"<a href=\"Services\/SocialMedia.php.html#52\">App\\Services\\SocialMedia::getFacebookSummary<\/a>"],[100,1,"<a href=\"Utils\/AgronomicalInfoMockData.php.html#23\">App\\Utils\\AgronomicalInfoMockData::getAgronomicalInfoData<\/a>"],[100,1,"<a href=\"Utils\/AgronomicalInfoMockData.php.html#32\">App\\Utils\\AgronomicalInfoMockData::getWrongAgronomicalInfoData<\/a>"],[100,1,"<a href=\"Utils\/CropMockData.php.html#15\">App\\Utils\\CropMockData::getNewCropData<\/a>"],[100,1,"<a href=\"Utils\/CropMockData.php.html#20\">App\\Utils\\CropMockData::getInvalidNewCropData<\/a>"],[100,1,"<a href=\"Utils\/CropMockData.php.html#25\">App\\Utils\\CropMockData::getEditCropData<\/a>"],[100,3,"<a href=\"Utils\/DateRequestFilter.php.html#14\">App\\Utils\\DateRequestFilter::getRequestParam<\/a>"],[75,4,"<a href=\"Utils\/DateRequestFilter.php.html#26\">App\\Utils\\DateRequestFilter::checkPercentage<\/a>"],[100,3,"<a href=\"Utils\/DateRequestFilter.php.html#40\">App\\Utils\\DateRequestFilter::getPercentage<\/a>"],[100,1,"<a href=\"Utils\/DiagnosisMockData.php.html#28\">App\\Utils\\DiagnosisMockData::getDiagnosisInformation<\/a>"],[100,1,"<a href=\"Utils\/DiagnosisMockData.php.html#35\">App\\Utils\\DiagnosisMockData::getEditDiagnosisData<\/a>"],[100,1,"<a href=\"Utils\/DiagnosisMockData.php.html#42\">App\\Utils\\DiagnosisMockData::getInvalidDiagnosisData<\/a>"],[100,1,"<a href=\"Utils\/DiagnosisMockData.php.html#51\">App\\Utils\\DiagnosisMockData::getValidData<\/a>"],[100,1,"<a href=\"Utils\/Email.php.html#13\">App\\Utils\\Email::initMail<\/a>"],[100,2,"<a href=\"Utils\/Email.php.html#30\">App\\Utils\\Email::formatMessage<\/a>"],[100,2,"<a href=\"Utils\/Email.php.html#56\">App\\Utils\\Email::templates<\/a>"],[100,1,"<a href=\"Utils\/Email.php.html#71\">App\\Utils\\Email::getTemplate<\/a>"],[100,3,"<a href=\"Utils\/Email.php.html#102\">App\\Utils\\Email::sendMail<\/a>"],[100,1,"<a href=\"Utils\/Email.php.html#118\">App\\Utils\\Email::mailWithTemplate<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#24\">App\\Utils\\Helpers::__construct<\/a>"],[100,2,"<a href=\"Utils\/Helpers.php.html#38\">App\\Utils\\Helpers::jwt<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#52\">App\\Utils\\Helpers::generateId<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#57\">App\\Utils\\Helpers::requestInfo<\/a>"],[80,2,"<a href=\"Utils\/Helpers.php.html#74\">App\\Utils\\Helpers::sendPassword<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#84\">App\\Utils\\Helpers::logActivity<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#94\">App\\Utils\\Helpers::returnError<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#101\">App\\Utils\\Helpers::returnSuccess<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#111\">App\\Utils\\Helpers::processImageUpload<\/a>"],[100,2,"<a href=\"Utils\/Helpers.php.html#124\">App\\Utils\\Helpers::documentExist<\/a>"],[87.5,3,"<a href=\"Utils\/Helpers.php.html#138\">App\\Utils\\Helpers::imageActions<\/a>"],[100,2,"<a href=\"Utils\/Helpers.php.html#154\">App\\Utils\\Helpers::checkInput<\/a>"],[100,3,"<a href=\"Utils\/Helpers.php.html#169\">App\\Utils\\Helpers::mutateAttributes<\/a>"],[100,2,"<a href=\"Utils\/Helpers.php.html#194\">App\\Utils\\Helpers::stringToUcFirst<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#207\">App\\Utils\\Helpers::stringToArray<\/a>"],[100,2,"<a href=\"Utils\/Helpers.php.html#218\">App\\Utils\\Helpers::getName<\/a>"],[100,1,"<a href=\"Utils\/Helpers.php.html#230\">App\\Utils\\Helpers::deleteDiagnosis<\/a>"],[100,1,"<a href=\"Utils\/InputData.php.html#22\">App\\Utils\\InputData::getInputsData<\/a>"],[100,1,"<a href=\"Utils\/InputData.php.html#26\">App\\Utils\\InputData::getInvalidInputData<\/a>"],[100,2,"<a href=\"Utils\/InputSupplierHelpers.php.html#15\">App\\Utils\\InputSupplierHelpers::deleteInput<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#45\">App\\Utils\\MockData::__construct<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#50\">App\\Utils\\MockData::getWrongEmail<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#54\">App\\Utils\\MockData::getWrongPassword<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#58\">App\\Utils\\MockData::getLoginDetails<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#63\">App\\Utils\\MockData::getPasswordMismatchData<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#69\">App\\Utils\\MockData::getInvalidToken<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#73\">App\\Utils\\MockData::getNonsenseToken<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#77\">App\\Utils\\MockData::getFakeToken<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#81\">App\\Utils\\MockData::getEmptyToken<\/a>"],[0,1,"<a href=\"Utils\/MockData.php.html#86\">App\\Utils\\MockData::getInvalidData<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#90\">App\\Utils\\MockData::getWrongChangePassword<\/a>"],[100,1,"<a href=\"Utils\/MockData.php.html#94\">App\\Utils\\MockData::getChangePassword<\/a>"],[100,1,"<a href=\"Utils\/OrderMockData.php.html#57\">App\\Utils\\OrderMockData::getOrderData<\/a>"],[100,1,"<a href=\"Utils\/Queries.php.html#26\">App\\Utils\\Queries::__construct<\/a>"],[100,1,"<a href=\"Utils\/Queries.php.html#38\">App\\Utils\\Queries::queryUser<\/a>"],[100,3,"<a href=\"Utils\/Queries.php.html#48\">App\\Utils\\Queries::changeStatus<\/a>"],[80,2,"<a href=\"Utils\/Queries.php.html#66\">App\\Utils\\Queries::deleteUser<\/a>"],[90.9090909090909,3,"<a href=\"Utils\/Queries.php.html#81\">App\\Utils\\Queries::editAccount<\/a>"],[100,2,"<a href=\"Utils\/Queries.php.html#97\">App\\Utils\\Queries::checkUser<\/a>"],[100,2,"<a href=\"Utils\/Queries.php.html#106\">App\\Utils\\Queries::getTopDistrictsByAppDownloads<\/a>"],[100,3,"<a href=\"Utils\/Queries.php.html#128\">App\\Utils\\Queries::getMostOrderedProducts<\/a>"],[100,3,"<a href=\"Utils\/Queries.php.html#156\">App\\Utils\\Queries::getMostOrderedServices<\/a>"],[100,3,"<a href=\"Utils\/Queries.php.html#193\">App\\Utils\\Queries::getActiveMobileUsers<\/a>"],[100,1,"<a href=\"Utils\/Queries.php.html#217\">App\\Utils\\Queries::getNewOrders<\/a>"],[100,3,"<a href=\"Utils\/Queries.php.html#236\">App\\Utils\\Queries::getOrdersByType<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#145\">App\\Utils\\UserMockData::__construct<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#149\">App\\Utils\\UserMockData::getAdminData<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#154\">App\\Utils\\UserMockData::getMasterAgentData<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#159\">App\\Utils\\UserMockData::getNewAdmin<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#165\">App\\Utils\\UserMockData::getWrongAdminRole<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#171\">App\\Utils\\UserMockData::getNewOffTaker<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#177\">App\\Utils\\UserMockData::getNewMasterAgent<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#183\">App\\Utils\\UserMockData::getExistingMasterAgent<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#189\">App\\Utils\\UserMockData::getNewDevtPartner<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#195\">App\\Utils\\UserMockData::getAccountRequest<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#201\">App\\Utils\\UserMockData::getInvalidData<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#207\">App\\Utils\\UserMockData::getValidVaData<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#213\">App\\Utils\\UserMockData::getDuplicateVaPhoneNo<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#224\">App\\Utils\\UserMockData::getInvalidVaData<\/a>"],[100,1,"<a href=\"Utils\/UserMockData.php.html#229\">App\\Utils\\UserMockData::getNewGovernmentPartner<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#20\">App\\Utils\\Validation::validateAdmin<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#31\">App\\Utils\\Validation::validateForgotPassword<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#37\">App\\Utils\\Validation::validateConfirmPassword<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#44\">App\\Utils\\Validation::validateVerifyPasswordToken<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#50\">App\\Utils\\Validation::validateLogin<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#60\">App\\Utils\\Validation::validateNewAccount<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#75\">App\\Utils\\Validation::validateAccountRequest<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#85\">App\\Utils\\Validation::validateContactForm<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#93\">App\\Utils\\Validation::validateAdminChangePassword<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#100\">App\\Utils\\Validation::validateExistingAccount<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#115\">App\\Utils\\Validation::validateVillageAgentData<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#126\">App\\Utils\\Validation::validateLimitAndOffset<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#134\">App\\Utils\\Validation::validateInputData<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#147\">App\\Utils\\Validation::validateDiagnosisInformation<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#159\">App\\Utils\\Validation::validateOurCropsData<\/a>"],[100,1,"<a href=\"Utils\/Validation.php.html#171\">App\\Utils\\Validation::validateAgronomicalInput<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

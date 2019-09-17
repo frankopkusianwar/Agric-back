@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1568399638">
+  <project timestamp="1568399638">
+    <package name="App\Events">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Events/Event.php">
+        <class name="App\Events\Event" namespace="App\Events">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Exceptions">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Exceptions/Handler.php">
+        <class name="App\Exceptions\Handler" namespace="App\Exceptions">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="34" type="method" name="report" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="36" type="stmt" count="12"/>
+        <line num="37" type="stmt" count="12"/>
+        <line num="46" type="method" name="render" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="48" type="stmt" count="12"/>
+        <metrics loc="50" ncloc="30" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/ActivityController.php">
+        <class name="App\Http\Controllers\ActivityController" namespace="App\Http\Controllers">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="38" elements="42" coveredelements="42"/>
+        </class>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="38" type="method" name="getActivityLog" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="46" type="method" name="getPercentages" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="61" type="method" name="getActivitySummary" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="69" type="stmt" count="2"/>
+        <line num="70" type="stmt" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="74" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="78" type="stmt" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="2"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="86" type="stmt" count="2"/>
+        <line num="87" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="89" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="92" type="stmt" count="2"/>
+        <metrics loc="94" ncloc="84" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="38" elements="42" coveredelements="42"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/AdminController.php">
+        <class name="App\Http\Controllers\AdminController" namespace="App\Http\Controllers">
+          <metrics complexity="25" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="80" coveredstatements="69" elements="87" coveredelements="71"/>
+        </class>
+        <line num="31" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="21"/>
+        <line num="33" type="stmt" count="21"/>
+        <line num="34" type="stmt" count="21"/>
+        <line num="35" type="stmt" count="21"/>
+        <line num="36" type="stmt" count="21"/>
+        <line num="37" type="stmt" count="21"/>
+        <line num="38" type="stmt" count="21"/>
+        <line num="39" type="stmt" count="21"/>
+        <line num="44" type="method" name="getAdmins" visibility="public" complexity="3" crap="3.33" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="64" type="method" name="createAdmin" visibility="public" complexity="5" crap="5.12" count="10"/>
+        <line num="66" type="stmt" count="10"/>
+        <line num="68" type="stmt" count="8"/>
+        <line num="69" type="stmt" count="7"/>
+        <line num="71" type="stmt" count="7"/>
+        <line num="72" type="stmt" count="7"/>
+        <line num="73" type="stmt" count="7"/>
+        <line num="75" type="stmt" count="7"/>
+        <line num="76" type="stmt" count="7"/>
+        <line num="77" type="stmt" count="7"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="91" type="method" name="changePassword" visibility="public" complexity="3" crap="3" count="3"/>
+        <line num="94" type="stmt" count="3"/>
+        <line num="95" type="stmt" count="2"/>
+        <line num="96" type="stmt" count="2"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="100" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="113" type="method" name="getTopAgents" visibility="public" complexity="7" crap="7.04" count="7"/>
+        <line num="115" type="stmt" count="7"/>
+        <line num="116" type="stmt" count="7"/>
+        <line num="117" type="stmt" count="7"/>
+        <line num="118" type="stmt" count="1"/>
+        <line num="120" type="stmt" count="6"/>
+        <line num="122" type="stmt" count="6"/>
+        <line num="123" type="stmt" count="6"/>
+        <line num="124" type="stmt" count="6"/>
+        <line num="125" type="stmt" count="6"/>
+        <line num="126" type="stmt" count="6"/>
+        <line num="127" type="stmt" count="4"/>
+        <line num="128" type="stmt" count="4"/>
+        <line num="129" type="stmt" count="4"/>
+        <line num="130" type="stmt" count="4"/>
+        <line num="131" type="stmt" count="4"/>
+        <line num="132" type="stmt" count="4"/>
+        <line num="133" type="stmt" count="4"/>
+        <line num="135" type="stmt" count="6"/>
+        <line num="136" type="stmt" count="6"/>
+        <line num="137" type="stmt" count="0"/>
+        <line num="138" type="stmt" count="0"/>
+        <line num="144" type="method" name="villageAgent" visibility="public" complexity="3" crap="3.10" count="2"/>
+        <line num="146" type="stmt" count="2"/>
+        <line num="148" type="stmt" count="2"/>
+        <line num="149" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="0"/>
+        <line num="152" type="stmt" count="2"/>
+        <line num="153" type="stmt" count="2"/>
+        <line num="154" type="stmt" count="2"/>
+        <line num="155" type="stmt" count="2"/>
+        <line num="157" type="stmt" count="0"/>
+        <line num="161" type="method" name="masterAgent" visibility="public" complexity="3" crap="3.10" count="2"/>
+        <line num="163" type="stmt" count="2"/>
+        <line num="165" type="stmt" count="2"/>
+        <line num="166" type="stmt" count="2"/>
+        <line num="167" type="stmt" count="0"/>
+        <line num="169" type="stmt" count="2"/>
+        <line num="170" type="stmt" count="2"/>
+        <line num="171" type="stmt" count="2"/>
+        <line num="172" type="stmt" count="2"/>
+        <line num="174" type="stmt" count="0"/>
+        <metrics loc="175" ncloc="145" classes="1" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="80" coveredstatements="69" elements="87" coveredelements="71"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/AdminExtendedController.php">
+        <class name="App\Http\Controllers\AdminExtendedController" namespace="App\Http\Controllers">
+          <metrics complexity="14" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="64" coveredstatements="57" elements="69" coveredelements="60"/>
+        </class>
+        <line num="32" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="34" type="stmt" count="9"/>
+        <line num="35" type="stmt" count="9"/>
+        <line num="36" type="stmt" count="9"/>
+        <line num="37" type="stmt" count="9"/>
+        <line num="38" type="stmt" count="9"/>
+        <line num="39" type="stmt" count="9"/>
+        <line num="45" type="method" name="deleteAccount" visibility="public" complexity="4" crap="4.47" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="72" type="method" name="editAccount" visibility="public" complexity="5" crap="5.10" count="2"/>
+        <line num="74" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="106" type="method" name="editVillageAgents" visibility="public" complexity="2" crap="2" count="6"/>
+        <line num="108" type="stmt" count="6"/>
+        <line num="110" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="2"/>
+        <line num="114" type="stmt" count="2"/>
+        <line num="115" type="stmt" count="2"/>
+        <line num="117" type="stmt" count="4"/>
+        <line num="124" type="method" name="getUsers" visibility="public" complexity="2" crap="2" count="7"/>
+        <line num="126" type="stmt" count="7"/>
+        <line num="127" type="stmt" count="1"/>
+        <line num="129" type="stmt" count="6"/>
+        <line num="130" type="stmt" count="6"/>
+        <line num="132" type="stmt" count="6"/>
+        <line num="137" type="stmt" count="6"/>
+        <line num="139" type="stmt" count="6"/>
+        <line num="140" type="stmt" count="6"/>
+        <line num="141" type="stmt" count="6"/>
+        <line num="142" type="stmt" count="6"/>
+        <line num="143" type="stmt" count="6"/>
+        <line num="145" type="stmt" count="6"/>
+        <line num="146" type="stmt" count="6"/>
+        <line num="147" type="stmt" count="6"/>
+        <line num="148" type="stmt" count="6"/>
+        <line num="149" type="stmt" count="6"/>
+        <line num="150" type="stmt" count="6"/>
+        <line num="151" type="stmt" count="6"/>
+        <metrics loc="153" ncloc="125" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="64" coveredstatements="57" elements="69" coveredelements="60"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/AgronomicalController.php">
+        <class name="App\Http\Controllers\AgronomicalController" namespace="App\Http\Controllers">
+          <metrics complexity="12" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="26" elements="35" coveredelements="29"/>
+        </class>
+        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="16" type="stmt" count="5"/>
+        <line num="17" type="stmt" count="5"/>
+        <line num="18" type="stmt" count="5"/>
+        <line num="25" type="method" name="getSpecificId" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="31" type="method" name="imageUpload" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="55" type="method" name="updateAgronomicalInfo" visibility="public" complexity="4" crap="4.04" count="3"/>
+        <line num="58" type="stmt" count="3"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="87" type="method" name="deleteAgronomicalInfo" visibility="public" complexity="3" crap="3.14" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="2"/>
+        <line num="92" type="stmt" count="2"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <metrics loc="101" ncloc="73" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="26" elements="35" coveredelements="29"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/AnalyticsController.php">
+        <class name="App\Http\Controllers\AnalyticsController" namespace="App\Http\Controllers">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="2" elements="15" coveredelements="2"/>
+        </class>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1.04" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="29" type="method" name="getNumberOfVistors" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <metrics loc="43" ncloc="34" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="2" elements="15" coveredelements="2"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/AuthController.php">
+        <class name="App\Http\Controllers\AuthController" namespace="App\Http\Controllers">
+          <metrics complexity="16" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="61" coveredstatements="52" elements="66" coveredelements="53"/>
+        </class>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="203"/>
+        <line num="35" type="stmt" count="203"/>
+        <line num="36" type="stmt" count="203"/>
+        <line num="37" type="stmt" count="203"/>
+        <line num="38" type="stmt" count="203"/>
+        <line num="39" type="stmt" count="203"/>
+        <line num="47" type="method" name="authenticate" visibility="public" complexity="5" crap="5.14" count="194"/>
+        <line num="50" type="stmt" count="194"/>
+        <line num="52" type="stmt" count="194"/>
+        <line num="53" type="stmt" count="194"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="192"/>
+        <line num="59" type="stmt" count="192"/>
+        <line num="60" type="stmt" count="192"/>
+        <line num="62" type="stmt" count="192"/>
+        <line num="63" type="stmt" count="192"/>
+        <line num="64" type="stmt" count="192"/>
+        <line num="66" type="stmt" count="192"/>
+        <line num="67" type="stmt" count="192"/>
+        <line num="68" type="stmt" count="192"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="82" type="method" name="forgotPassword" visibility="public" complexity="3" crap="3.02" count="3"/>
+        <line num="84" type="stmt" count="3"/>
+        <line num="86" type="stmt" count="2"/>
+        <line num="87" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="114" type="method" name="confirmPassword" visibility="public" complexity="4" crap="4.05" count="3"/>
+        <line num="116" type="stmt" count="3"/>
+        <line num="118" type="stmt" count="2"/>
+        <line num="119" type="stmt" count="2"/>
+        <line num="121" type="stmt" count="2"/>
+        <line num="123" type="stmt" count="2"/>
+        <line num="124" type="stmt" count="1"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="126" type="stmt" count="1"/>
+        <line num="127" type="stmt" count="1"/>
+        <line num="128" type="stmt" count="1"/>
+        <line num="131" type="stmt" count="1"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="133" type="stmt" count="0"/>
+        <line num="134" type="stmt" count="0"/>
+        <line num="143" type="method" name="verifyResetPasswordToken" visibility="public" complexity="3" crap="3.10" count="3"/>
+        <line num="145" type="stmt" count="3"/>
+        <line num="147" type="stmt" count="2"/>
+        <line num="148" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="2"/>
+        <line num="152" type="stmt" count="2"/>
+        <line num="153" type="stmt" count="1"/>
+        <line num="156" type="stmt" count="1"/>
+        <line num="157" type="stmt" count="0"/>
+        <line num="158" type="stmt" count="0"/>
+        <metrics loc="161" ncloc="126" classes="1" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="61" coveredstatements="52" elements="66" coveredelements="53"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/ContactController.php">
+        <class name="App\Http\Controllers\ContactController" namespace="App\Http\Controllers">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+        </class>
+        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="38" type="method" name="sendContactForm" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <metrics loc="55" ncloc="39" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/Controller.php">
+        <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/DevtPartnerController.php">
+        <class name="App\Http\Controllers\DevtPartnerController" namespace="App\Http\Controllers">
+          <metrics complexity="5" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="27" elements="33" coveredelements="29"/>
+        </class>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="43" type="method" name="getDevtPartners" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="64" type="method" name="createDevtPartner" visibility="public" complexity="3" crap="3.11" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <metrics loc="87" ncloc="69" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="27" elements="33" coveredelements="29"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/DiagnosisController.php">
+        <class name="App\Http\Controllers\DiagnosisController" namespace="App\Http\Controllers">
+          <metrics complexity="16" methods="5" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="40" elements="51" coveredelements="42"/>
+        </class>
+        <line num="22" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="24" type="stmt" count="11"/>
+        <line num="25" type="stmt" count="11"/>
+        <line num="34" type="method" name="getDiagnosis" visibility="public" complexity="2" crap="2.04" count="3"/>
+        <line num="37" type="stmt" count="3"/>
+        <line num="39" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="59" type="method" name="deleteDiagnosis" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="66" type="stmt" count="2"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="83" type="method" name="editDiagnosisInformation" visibility="public" complexity="5" crap="5.20" count="2"/>
+        <line num="86" type="stmt" count="2"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="118" type="method" name="createDiagnosis" visibility="public" complexity="5" crap="5.05" count="4"/>
+        <line num="121" type="stmt" count="4"/>
+        <line num="122" type="stmt" count="3"/>
+        <line num="123" type="stmt" count="3"/>
+        <line num="124" type="stmt" count="3"/>
+        <line num="126" type="stmt" count="3"/>
+        <line num="127" type="stmt" count="1"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="137" type="stmt" count="2"/>
+        <line num="138" type="stmt" count="2"/>
+        <line num="139" type="stmt" count="2"/>
+        <line num="140" type="stmt" count="2"/>
+        <line num="141" type="stmt" count="2"/>
+        <line num="142" type="stmt" count="1"/>
+        <line num="144" type="stmt" count="1"/>
+        <line num="145" type="stmt" count="0"/>
+        <line num="146" type="stmt" count="0"/>
+        <metrics loc="149" ncloc="106" classes="1" methods="5" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="40" elements="51" coveredelements="42"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/DistrictController.php">
+        <class name="App\Http\Controllers\DistrictController" namespace="App\Http\Controllers">
+          <metrics complexity="12" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="40" elements="48" coveredelements="42"/>
+        </class>
+        <line num="22" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="27" type="stmt" count="5"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="34" type="method" name="getTopDistricts" visibility="public" complexity="5" crap="5" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="64" type="method" name="getTopPerformingDistricts" visibility="public" complexity="4" crap="4.04" count="2"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="94" type="method" name="getDistricts" visibility="public" complexity="2" crap="2.50" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <metrics loc="103" ncloc="85" classes="1" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="40" elements="48" coveredelements="42"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/FarmerController.php">
+        <class name="App\Http\Controllers\FarmerController" namespace="App\Http\Controllers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+        </class>
+        <line num="17" type="method" name="getFarmers" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <metrics loc="25" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/FarmerProduceController.php">
+        <class name="App\Http\Controllers\FarmerProduceController" namespace="App\Http\Controllers">
+          <metrics complexity="6" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="14" elements="17" coveredelements="14"/>
+        </class>
+        <line num="19" type="method" name="getTopFarmProduce" visibility="public" complexity="6" crap="6.07" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <metrics loc="44" ncloc="39" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="14" elements="17" coveredelements="14"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/FarmersOrderController.php">
+        <class name="App\Http\Controllers\FarmersOrderController" namespace="App\Http\Controllers">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="16" coveredelements="16"/>
+        </class>
+        <line num="17" type="method" name="getTransformedOrders" visibility="private" complexity="2" crap="2" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="38" type="method" name="getNumberOfFarmersWhoOrderedDifferentInputCategories" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <metrics loc="48" ncloc="35" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="16" coveredelements="16"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/InputController.php">
+        <class name="App\Http\Controllers\InputController" namespace="App\Http\Controllers">
+          <metrics complexity="17" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="45" elements="59" coveredelements="47"/>
+        </class>
+        <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="20" type="stmt" count="11"/>
+        <line num="21" type="stmt" count="11"/>
+        <line num="22" type="stmt" count="11"/>
+        <line num="28" type="method" name="getInputDetails" visibility="public" complexity="3" crap="3.33" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="44" type="method" name="updateInput" visibility="public" complexity="4" crap="4" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="48" type="stmt" count="3"/>
+        <line num="49" type="stmt" count="3"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="66" type="stmt" count="2"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="80" type="method" name="deleteInput" visibility="public" complexity="3" crap="3.10" count="2"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="99" type="method" name="getInputs" visibility="public" complexity="2" crap="2.50" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="112" type="method" name="createInput" visibility="public" complexity="4" crap="4.03" count="3"/>
+        <line num="114" type="stmt" count="3"/>
+        <line num="116" type="stmt" count="2"/>
+        <line num="117" type="stmt" count="2"/>
+        <line num="124" type="stmt" count="2"/>
+        <line num="125" type="stmt" count="2"/>
+        <line num="126" type="stmt" count="2"/>
+        <line num="127" type="stmt" count="2"/>
+        <line num="128" type="stmt" count="2"/>
+        <line num="129" type="stmt" count="1"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="133" type="stmt" count="1"/>
+        <line num="134" type="stmt" count="1"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="139" type="stmt" count="0"/>
+        <line num="140" type="stmt" count="0"/>
+        <metrics loc="143" ncloc="106" classes="1" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="45" elements="59" coveredelements="47"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/MapCordinatesController.php">
+        <class name="App\Http\Controllers\MapCordinatesController" namespace="App\Http\Controllers">
+          <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="8" coveredelements="5"/>
+        </class>
+        <line num="20" type="method" name="getTotalAcreage" visibility="public" complexity="4" crap="4.37" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="25" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="8" coveredelements="5"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/MasterAgentController.php">
+        <class name="App\Http\Controllers\MasterAgentController" namespace="App\Http\Controllers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+        </class>
+        <line num="21" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="32" type="method" name="getMasterAgents" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <metrics loc="42" ncloc="32" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/OrderController.php">
+        <class name="App\Http\Controllers\OrderController" namespace="App\Http\Controllers">
+          <metrics complexity="9" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="22" elements="31" coveredelements="25"/>
+        </class>
+        <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="18" type="stmt" count="8"/>
+        <line num="19" type="stmt" count="8"/>
+        <line num="20" type="stmt" count="8"/>
+        <line num="25" type="method" name="getOrders" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="28" type="stmt" count="3"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="39" type="method" name="getOrdersByType" visibility="public" complexity="2" crap="2.50" count="3"/>
+        <line num="42" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="53" type="method" name="getInputsStock" visibility="public" complexity="3" crap="3.03" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="79" type="method" name="deleteOrderOfId" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <metrics loc="84" ncloc="63" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="22" elements="31" coveredelements="25"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/OurCropController.php">
+        <class name="App\Http\Controllers\OurCropController" namespace="App\Http\Controllers">
+          <metrics complexity="16" methods="7" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="36" elements="48" coveredelements="40"/>
+        </class>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="21" type="stmt" count="9"/>
+        <line num="22" type="stmt" count="9"/>
+        <line num="23" type="stmt" count="9"/>
+        <line num="24" type="stmt" count="9"/>
+        <line num="25" type="stmt" count="9"/>
+        <line num="31" type="method" name="getEnterprises" visibility="public" complexity="2" crap="2.50" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="45" type="method" name="addCrop" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="69" type="method" name="getCrops" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="80" type="method" name="getCrop" visibility="public" complexity="2" crap="2.09" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="99" type="method" name="deleteCrop" visibility="public" complexity="3" crap="3.03" count="2"/>
+        <line num="102" type="stmt" count="2"/>
+        <line num="103" type="stmt" count="2"/>
+        <line num="104" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="118" type="method" name="editCrop" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="121" type="stmt" count="2"/>
+        <line num="122" type="stmt" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="137" type="stmt" count="1"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="139" type="stmt" count="1"/>
+        <metrics loc="142" ncloc="105" classes="1" methods="7" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="36" elements="48" coveredelements="40"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/ReportController.php">
+        <class name="App\Http\Controllers\ReportController" namespace="App\Http\Controllers">
+          <metrics complexity="13" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="29" elements="43" coveredelements="30"/>
+        </class>
+        <line num="24" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="26" type="stmt" count="8"/>
+        <line num="27" type="stmt" count="8"/>
+        <line num="35" type="method" name="getMostOrdered" visibility="public" complexity="4" crap="4.10" count="3"/>
+        <line num="38" type="stmt" count="3"/>
+        <line num="39" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="58" type="method" name="getFarmerAgentsOrderStatistics" visibility="public" complexity="2" crap="2.02" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="65" type="stmt" count="2"/>
+        <line num="66" type="stmt" count="2"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="69" type="stmt" count="2"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="79" type="method" name="getTwitterReport" visibility="public" complexity="2" crap="2.06" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="93" type="method" name="getYoutubeReport" visibility="public" complexity="2" crap="2.26" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="108" type="method" name="getFacebookReport" visibility="public" complexity="2" crap="2.06" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <metrics loc="117" ncloc="87" classes="1" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="29" elements="43" coveredelements="30"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/TotalPaymentController.php">
+        <class name="App\Http\Controllers\TotalPaymentController" namespace="App\Http\Controllers">
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="25" elements="29" coveredelements="26"/>
+        </class>
+        <line num="16" type="method" name="getPaymentSum" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="31" type="method" name="getTotalPayment" visibility="public" complexity="2" crap="2.00" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <metrics loc="63" ncloc="58" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="25" elements="29" coveredelements="26"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Controllers/UserController.php">
+        <class name="App\Http\Controllers\UserController" namespace="App\Http\Controllers">
+          <metrics complexity="33" methods="11" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="118" coveredstatements="88" elements="129" coveredelements="91"/>
+        </class>
+        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="20"/>
+        <line num="28" type="stmt" count="20"/>
+        <line num="29" type="stmt" count="20"/>
+        <line num="30" type="stmt" count="20"/>
+        <line num="31" type="stmt" count="20"/>
+        <line num="32" type="stmt" count="20"/>
+        <line num="33" type="stmt" count="20"/>
+        <line num="34" type="stmt" count="20"/>
+        <line num="35" type="stmt" count="20"/>
+        <line num="36" type="stmt" count="20"/>
+        <line num="37" type="method" name="requestAccount" visibility="public" complexity="3" crap="3.07" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="58" type="method" name="createUser" visibility="public" complexity="3" crap="3.47" count="5"/>
+        <line num="60" type="stmt" count="5"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="73" type="method" name="getAllActiveUsers" visibility="public" complexity="2" crap="2.01" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="91" type="method" name="getActiveMobileUsers" visibility="public" complexity="2" crap="2.02" count="2"/>
+        <line num="93" type="stmt" count="2"/>
+        <line num="94" type="stmt" count="2"/>
+        <line num="96" type="stmt" count="2"/>
+        <line num="97" type="stmt" count="2"/>
+        <line num="98" type="stmt" count="2"/>
+        <line num="102" type="stmt" count="2"/>
+        <line num="103" type="stmt" count="2"/>
+        <line num="104" type="stmt" count="2"/>
+        <line num="105" type="stmt" count="2"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="110" type="method" name="isInvalidVaData" visibility="private" complexity="4" crap="4" count="3"/>
+        <line num="112" type="stmt" count="3"/>
+        <line num="113" type="stmt" count="2"/>
+        <line num="115" type="stmt" count="2"/>
+        <line num="116" type="stmt" count="2"/>
+        <line num="118" type="stmt" count="2"/>
+        <line num="119" type="stmt" count="2"/>
+        <line num="120" type="stmt" count="1"/>
+        <line num="123" type="stmt" count="2"/>
+        <line num="125" type="method" name="getVaFromInput" visibility="private" complexity="3" crap="3" count="3"/>
+        <line num="127" type="stmt" count="3"/>
+        <line num="128" type="stmt" count="1"/>
+        <line num="130" type="stmt" count="1"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="133" type="stmt" count="1"/>
+        <line num="134" type="stmt" count="1"/>
+        <line num="135" type="stmt" count="1"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="145" type="method" name="addVillageAgents" visibility="public" complexity="4" crap="4.05" count="3"/>
+        <line num="148" type="stmt" count="3"/>
+        <line num="149" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="1"/>
+        <line num="152" type="stmt" count="1"/>
+        <line num="153" type="stmt" count="1"/>
+        <line num="154" type="stmt" count="1"/>
+        <line num="155" type="stmt" count="0"/>
+        <line num="164" type="method" name="getUser" visibility="public" complexity="3" crap="3.33" count="2"/>
+        <line num="167" type="stmt" count="2"/>
+        <line num="168" type="stmt" count="2"/>
+        <line num="169" type="stmt" count="1"/>
+        <line num="171" type="stmt" count="1"/>
+        <line num="172" type="stmt" count="0"/>
+        <line num="173" type="stmt" count="0"/>
+        <line num="181" type="method" name="accountAction" visibility="public" complexity="6" crap="6.06" count="5"/>
+        <line num="183" type="stmt" count="5"/>
+        <line num="184" type="stmt" count="1"/>
+        <line num="186" type="stmt" count="4"/>
+        <line num="188" type="stmt" count="4"/>
+        <line num="189" type="stmt" count="2"/>
+        <line num="190" type="stmt" count="2"/>
+        <line num="191" type="stmt" count="2"/>
+        <line num="192" type="stmt" count="2"/>
+        <line num="193" type="stmt" count="2"/>
+        <line num="195" type="stmt" count="2"/>
+        <line num="196" type="stmt" count="2"/>
+        <line num="197" type="stmt" count="2"/>
+        <line num="199" type="stmt" count="2"/>
+        <line num="201" type="stmt" count="2"/>
+        <line num="203" type="stmt" count="2"/>
+        <line num="205" type="stmt" count="0"/>
+        <line num="206" type="stmt" count="0"/>
+        <line num="215" type="method" name="getUsers" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="217" type="stmt" count="0"/>
+        <line num="218" type="stmt" count="0"/>
+        <line num="221" type="stmt" count="0"/>
+        <line num="226" type="stmt" count="0"/>
+        <line num="227" type="stmt" count="0"/>
+        <line num="228" type="stmt" count="0"/>
+        <line num="229" type="stmt" count="0"/>
+        <line num="230" type="stmt" count="0"/>
+        <line num="231" type="stmt" count="0"/>
+        <line num="232" type="stmt" count="0"/>
+        <line num="233" type="stmt" count="0"/>
+        <line num="234" type="stmt" count="0"/>
+        <line num="235" type="stmt" count="0"/>
+        <line num="236" type="stmt" count="0"/>
+        <line num="237" type="stmt" count="0"/>
+        <metrics loc="239" ncloc="216" classes="1" methods="11" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="118" coveredstatements="88" elements="129" coveredelements="91"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Middleware/Authenticate.php">
+        <class name="App\Http\Middleware\Authenticate" namespace="App\Http\Middleware">
+          <metrics complexity="5" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
+        </class>
+        <line num="17" type="method" name="handle" visibility="public" complexity="5" crap="5" count="189"/>
+        <line num="19" type="stmt" count="189"/>
+        <line num="20" type="stmt" count="189"/>
+        <line num="21" type="stmt" count="32"/>
+        <line num="25" type="stmt" count="158"/>
+        <line num="26" type="stmt" count="36"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="34"/>
+        <line num="31" type="stmt" count="34"/>
+        <line num="32" type="stmt" count="34"/>
+        <line num="33" type="stmt" count="34"/>
+        <line num="36" type="stmt" count="122"/>
+        <line num="37" type="stmt" count="122"/>
+        <line num="38" type="stmt" count="122"/>
+        <line num="40" type="stmt" count="122"/>
+        <line num="41" type="stmt" count="122"/>
+        <metrics loc="43" ncloc="32" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Middleware/AuthenticateAdmin.php">
+        <class name="App\Http\Middleware\AuthenticateAdmin" namespace="App\Http\Middleware">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="122"/>
+        <line num="15" type="stmt" count="122"/>
+        <line num="16" type="stmt" count="122"/>
+        <line num="17" type="stmt" count="122"/>
+        <line num="25" type="method" name="handle" visibility="public" complexity="2" crap="2" count="122"/>
+        <line num="27" type="stmt" count="122"/>
+        <line num="28" type="stmt" count="122"/>
+        <line num="29" type="stmt" count="122"/>
+        <line num="31" type="stmt" count="122"/>
+        <line num="32" type="stmt" count="4"/>
+        <line num="33" type="stmt" count="4"/>
+        <line num="34" type="stmt" count="4"/>
+        <line num="36" type="stmt" count="118"/>
+        <line num="38" type="stmt" count="118"/>
+        <metrics loc="40" ncloc="33" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Middleware/Cors.php">
+        <class name="App\Http\Middleware\Cors" namespace="App\Http\Middleware">
+          <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="8" coveredelements="6"/>
+        </class>
+        <line num="15" type="method" name="handle" visibility="public" complexity="3" crap="3.03" count="206"/>
+        <line num="18" type="stmt" count="206"/>
+        <line num="25" type="stmt" count="206"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="206"/>
+        <line num="30" type="stmt" count="206"/>
+        <line num="31" type="stmt" count="206"/>
+        <line num="34" type="stmt" count="206"/>
+        <metrics loc="36" ncloc="29" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="8" coveredelements="6"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Middleware/DocumentExist.php">
+        <class name="App\Http\Middleware\DocumentExist" namespace="App\Http\Middleware">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+        </class>
+        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="16" type="stmt" count="14"/>
+        <line num="17" type="stmt" count="14"/>
+        <line num="26" type="method" name="handle" visibility="public" complexity="3" crap="3" count="14"/>
+        <line num="28" type="stmt" count="14"/>
+        <line num="29" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="8"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="6"/>
+        <metrics loc="38" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Middleware/ValidateDiagnosisCategory.php">
+        <class name="App\Http\Middleware\ValidateDiagnosisCategory" namespace="App\Http\Middleware">
+          <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+        </class>
+        <line num="16" type="method" name="handle" visibility="public" complexity="3" crap="3" count="10"/>
+        <line num="18" type="stmt" count="10"/>
+        <line num="19" type="stmt" count="10"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="9"/>
+        <metrics loc="24" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http/Middleware/ValidateParams.php">
+        <class name="App\Http\Middleware\ValidateParams" namespace="App\Http\Middleware">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+        </class>
+        <line num="16" type="method" name="handle" visibility="public" complexity="2" crap="2.15" count="7"/>
+        <line num="18" type="stmt" count="7"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="7"/>
+        <metrics loc="23" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Jobs">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Jobs/Job.php">
+        <class name="App\Jobs\Job" namespace="App\Jobs">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="24" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Models">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Account.php">
+        <class name="App\Models\Account" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/ActivityLog.php">
+        <class name="App\Models\ActivityLog" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="44" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Admin.php">
+        <class name="App\Models\Admin" namespace="App\Models">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="53" type="method" name="setPasswordAttribute" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="55" type="stmt" count="7"/>
+        <line num="56" type="stmt" count="7"/>
+        <metrics loc="57" ncloc="33" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/CropInfo.php">
+        <class name="App\Models\CropInfo" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="43" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/CustomExpense.php">
+        <class name="App\Models\CustomExpense" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/CustomIncome.php">
+        <class name="App\Models\CustomIncome" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="25" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/DevtPartner.php">
+        <class name="App\Models\DevtPartner" namespace="App\Models">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="101" type="method" name="__set" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="114" type="method" name="setPasswordAttribute" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="116" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="1"/>
+        <metrics loc="118" ncloc="75" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Diagnosis.php">
+        <class name="App\Models\Diagnosis" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="34" ncloc="28" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/District.php">
+        <class name="App\Models\District" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="40" ncloc="21" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Expense.php">
+        <class name="App\Models\Expense" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Farmer.php">
+        <class name="App\Models\Farmer" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="29" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Government.php">
+        <class name="App\Models\Government" namespace="App\Models">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="77" type="method" name="__set" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="90" type="method" name="setPasswordAttribute" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <metrics loc="94" ncloc="51" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Income.php">
+        <class name="App\Models\Income" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/InputCategory.php">
+        <class name="App\Models\InputCategory" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="20" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/InputOrder.php">
+        <class name="App\Models\InputOrder" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/InputSupplier.php">
+        <class name="App\Models\InputSupplier" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="22" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Insurance.php">
+        <class name="App\Models\Insurance" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/MapCoordinate.php">
+        <class name="App\Models\MapCoordinate" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/MasterAgent.php">
+        <class name="App\Models\MasterAgent" namespace="App\Models">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="94" type="method" name="__set" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="96" type="stmt" count="2"/>
+        <line num="98" type="stmt" count="2"/>
+        <line num="99" type="stmt" count="2"/>
+        <line num="101" type="stmt" count="2"/>
+        <line num="107" type="method" name="setPasswordAttribute" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="109" type="stmt" count="2"/>
+        <line num="110" type="stmt" count="2"/>
+        <metrics loc="111" ncloc="68" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/MilkLedger.php">
+        <class name="App\Models\MilkLedger" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="25" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/OffTaker.php">
+        <class name="App\Models\OffTaker" namespace="App\Models">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="83" type="method" name="__set" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="85" type="stmt" count="2"/>
+        <line num="87" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="96" type="method" name="setPasswordAttribute" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="98" type="stmt" count="2"/>
+        <line num="99" type="stmt" count="2"/>
+        <metrics loc="100" ncloc="57" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Order.php">
+        <class name="App\Models\Order" namespace="App\Models">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
+        </class>
+        <line num="35" type="method" name="queryOrdersByStatus" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <metrics loc="56" ncloc="47" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/OurCrop.php">
+        <class name="App\Models\OurCrop" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="37" ncloc="24" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Planting.php">
+        <class name="App\Models\Planting" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/RequestPassword.php">
+        <class name="App\Models\RequestPassword" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="44" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/SoilTest.php">
+        <class name="App\Models\SoilTest" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/Spraying.php">
+        <class name="App\Models\Spraying" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="24" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/User.php">
+        <class name="App\Models\User" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Models/VillageAgent.php">
+        <class name="App\Models\VillageAgent" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="56" ncloc="52" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Providers/AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="register" visibility="public" complexity="2" crap="2.15" count="210"/>
+        <line num="16" type="stmt" count="210"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="210"/>
+        <metrics loc="20" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Rules">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/AccountType.php">
+        <class name="App\Rules\AccountType" namespace="App\Rules">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="16" type="method" name="passes" visibility="public" complexity="3" crap="3" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="25" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <metrics loc="29" ncloc="16" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/AdminRole.php">
+        <class name="App\Rules\AdminRole" namespace="App\Rules">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="17" type="method" name="passes" visibility="public" complexity="3" crap="3" count="9"/>
+        <line num="19" type="stmt" count="9"/>
+        <line num="27" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <metrics loc="31" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/Agronomicalinfo.php">
+        <class name="App\Rules\AgronomicalInfo" namespace="App\Rules">
+          <metrics complexity="5" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="17" type="method" name="passes" visibility="public" complexity="4" crap="4" count="3"/>
+        <line num="19" type="stmt" count="3"/>
+        <line num="27" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <metrics loc="31" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/District.php">
+        <class name="App\Rules\District" namespace="App\Rules">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="17" type="method" name="passes" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="20" type="stmt" count="9"/>
+        <line num="22" type="stmt" count="9"/>
+        <line num="30" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="34" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/Email.php">
+        <class name="App\Rules\Email" namespace="App\Rules">
+          <metrics complexity="4" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
+        </class>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="13" type="stmt" count="18"/>
+        <line num="14" type="stmt" count="18"/>
+        <line num="24" type="method" name="passes" visibility="public" complexity="2" crap="2" count="17"/>
+        <line num="26" type="stmt" count="17"/>
+        <line num="27" type="stmt" count="17"/>
+        <line num="28" type="stmt" count="17"/>
+        <line num="36" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <metrics loc="40" ncloc="27" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/PhoneNumber.php">
+        <class name="App\Rules\PhoneNumber" namespace="App\Rules">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+        </class>
+        <line num="21" type="method" name="passes" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="32" type="method" name="message" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <metrics loc="36" ncloc="23" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/ValidateInputCategory.php">
+        <class name="App\Rules\ValidateInputCategory" namespace="App\Rules">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="18" type="method" name="passes" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="20" type="stmt" count="6"/>
+        <line num="21" type="stmt" count="6"/>
+        <line num="28" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <metrics loc="32" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/ValidateInputFields.php">
+        <class name="App\Rules\ValidateInputFields" namespace="App\Rules">
+          <metrics complexity="7" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="7" elements="15" coveredelements="8"/>
+        </class>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="28"/>
+        <line num="13" type="stmt" count="28"/>
+        <line num="14" type="stmt" count="28"/>
+        <line num="23" type="method" name="passes" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="33" type="method" name="message" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="38" type="method" name="isEmpty" visibility="public" complexity="4" crap="4.37" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="2"/>
+        <metrics loc="52" ncloc="39" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="7" elements="15" coveredelements="8"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/ValueChain.php">
+        <class name="App\Rules\ValueChain" namespace="App\Rules">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="16" type="method" name="passes" visibility="public" complexity="3" crap="3" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="25" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <metrics loc="29" ncloc="16" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/emailUpdate.php">
+        <class name="App\Rules\EmailUpdate" namespace="App\Rules">
+          <metrics complexity="5" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="27" type="method" name="passes" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="39" type="method" name="message" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <metrics loc="43" ncloc="30" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Rules/userName.php">
+        <class name="App\Rules\UserName" namespace="App\Rules">
+          <metrics complexity="4" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="9" coveredelements="7"/>
+        </class>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="14" type="stmt" count="8"/>
+        <line num="15" type="stmt" count="8"/>
+        <line num="16" type="stmt" count="8"/>
+        <line num="26" type="method" name="passes" visibility="public" complexity="2" crap="2" count="8"/>
+        <line num="28" type="stmt" count="8"/>
+        <line num="29" type="stmt" count="8"/>
+        <line num="37" type="method" name="message" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <metrics loc="41" ncloc="28" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="9" coveredelements="7"/>
+      </file>
+    </package>
+    <package name="App\Services">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Services/GoogleClient.php">
+        <class name="App\Services\GoogleClient" namespace="App\Services">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="10" coveredelements="4"/>
+        </class>
+        <line num="7" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="9" type="stmt" count="0"/>
+        <line num="16" type="method" name="initializeAnalytics" visibility="public" complexity="1" crap="1.08" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="16" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="10" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Services/GoogleStorage.php">
+        <class name="App\Services\GoogleStorage" namespace="App\Services">
+          <metrics complexity="4" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="15" elements="20" coveredelements="17"/>
+        </class>
+        <line num="21" type="method" name="getBucketInstance" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="37" type="method" name="uploadImage" visibility="public" complexity="2" crap="2.06" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="58" type="method" name="deleteImage" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="1"/>
+        <metrics loc="64" ncloc="44" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="15" elements="20" coveredelements="17"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Services/SocialMedia.php">
+        <class name="App\Services\SocialMedia" namespace="App\Services">
+          <metrics complexity="9" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="16" elements="34" coveredelements="16"/>
+        </class>
+        <line num="20" type="method" name="getTwitterSummary" visibility="public" complexity="2" crap="3.46" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="37" type="method" name="getYoutubeSummary" visibility="public" complexity="2" crap="2.01" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="52" type="method" name="getFacebookSummary" visibility="public" complexity="5" crap="8.71" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <metrics loc="77" ncloc="65" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="16" elements="34" coveredelements="16"/>
+      </file>
+    </package>
+    <package name="App\Utils">
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/AgronomicalInfoMockData.php">
+        <class name="App\Utils\AgronomicalInfoMockData" namespace="App\Utils">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="23" type="method" name="getAgronomicalInfoData" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="25" type="stmt" count="7"/>
+        <line num="32" type="method" name="getWrongAgronomicalInfoData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <metrics loc="36" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/CropMockData.php">
+        <class name="App\Utils\CropMockData" namespace="App\Utils">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+        </class>
+        <line num="15" type="method" name="getNewCropData" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="17" type="stmt" count="6"/>
+        <line num="20" type="method" name="getInvalidNewCropData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="25" type="method" name="getEditCropData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <metrics loc="31" ncloc="31" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/DateRequestFilter.php">
+        <class name="App\Utils\DateRequestFilter" namespace="App\Utils">
+          <metrics complexity="10" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="13" coveredelements="11"/>
+        </class>
+        <line num="14" type="method" name="getRequestParam" visibility="public" complexity="3" crap="3" count="33"/>
+        <line num="16" type="stmt" count="33"/>
+        <line num="17" type="stmt" count="32"/>
+        <line num="18" type="stmt" count="32"/>
+        <line num="26" type="method" name="checkPercentage" visibility="public" complexity="4" crap="4.25" count="5"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="5"/>
+        <line num="33" type="stmt" count="5"/>
+        <line num="40" type="method" name="getPercentage" visibility="public" complexity="3" crap="3" count="14"/>
+        <line num="42" type="stmt" count="14"/>
+        <line num="43" type="stmt" count="5"/>
+        <line num="45" type="stmt" count="14"/>
+        <metrics loc="47" ncloc="31" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="13" coveredelements="11"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/DiagnosisMockData.php">
+        <class name="App\Utils\DiagnosisMockData" namespace="App\Utils">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="16" coveredelements="16"/>
+        </class>
+        <line num="28" type="method" name="getDiagnosisInformation" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="30" type="stmt" count="4"/>
+        <line num="31" type="stmt" count="4"/>
+        <line num="32" type="stmt" count="4"/>
+        <line num="35" type="method" name="getEditDiagnosisData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="42" type="method" name="getInvalidDiagnosisData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="51" type="method" name="getValidData" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="53" type="stmt" count="3"/>
+        <metrics loc="55" ncloc="55" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="16" coveredelements="16"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/Email.php">
+        <class name="App\Utils\Email" namespace="App\Utils">
+          <metrics complexity="10" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="44" elements="50" coveredelements="50"/>
+        </class>
+        <line num="13" type="method" name="initMail" visibility="private" complexity="1" crap="1" count="11"/>
+        <line num="16" type="stmt" count="11"/>
+        <line num="19" type="stmt" count="11"/>
+        <line num="21" type="stmt" count="11"/>
+        <line num="23" type="stmt" count="11"/>
+        <line num="30" type="method" name="formatMessage" visibility="private" complexity="2" crap="2" count="11"/>
+        <line num="32" type="stmt" count="11"/>
+        <line num="33" type="stmt" count="11"/>
+        <line num="34" type="stmt" count="11"/>
+        <line num="40" type="stmt" count="11"/>
+        <line num="41" type="stmt" count="11"/>
+        <line num="43" type="stmt" count="11"/>
+        <line num="44" type="stmt" count="11"/>
+        <line num="45" type="stmt" count="11"/>
+        <line num="46" type="stmt" count="11"/>
+        <line num="56" type="method" name="templates" visibility="private" complexity="2" crap="2" count="8"/>
+        <line num="58" type="stmt" count="8"/>
+        <line num="59" type="stmt" count="8"/>
+        <line num="63" type="stmt" count="8"/>
+        <line num="66" type="stmt" count="8"/>
+        <line num="67" type="stmt" count="8"/>
+        <line num="68" type="stmt" count="8"/>
+        <line num="71" type="method" name="getTemplate" visibility="private" complexity="1" crap="1" count="8"/>
+        <line num="75" type="stmt" count="8"/>
+        <line num="76" type="stmt" count="8"/>
+        <line num="77" type="stmt" count="8"/>
+        <line num="78" type="stmt" count="8"/>
+        <line num="79" type="stmt" count="8"/>
+        <line num="80" type="stmt" count="8"/>
+        <line num="84" type="stmt" count="8"/>
+        <line num="85" type="stmt" count="8"/>
+        <line num="86" type="stmt" count="8"/>
+        <line num="87" type="stmt" count="8"/>
+        <line num="88" type="stmt" count="8"/>
+        <line num="89" type="stmt" count="8"/>
+        <line num="92" type="stmt" count="8"/>
+        <line num="102" type="method" name="sendMail" visibility="public" complexity="3" crap="3" count="11"/>
+        <line num="104" type="stmt" count="11"/>
+        <line num="105" type="stmt" count="11"/>
+        <line num="106" type="stmt" count="11"/>
+        <line num="107" type="stmt" count="11"/>
+        <line num="109" type="stmt" count="11"/>
+        <line num="110" type="stmt" count="11"/>
+        <line num="118" type="method" name="mailWithTemplate" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="120" type="stmt" count="8"/>
+        <line num="122" type="stmt" count="8"/>
+        <line num="123" type="stmt" count="8"/>
+        <line num="124" type="stmt" count="8"/>
+        <line num="125" type="stmt" count="8"/>
+        <line num="126" type="stmt" count="8"/>
+        <metrics loc="129" ncloc="105" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="44" elements="50" coveredelements="50"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/Helpers.php">
+        <class name="App\Utils\Helpers" namespace="App\Utils">
+          <metrics complexity="27" methods="17" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="71" coveredstatements="69" elements="88" coveredelements="84"/>
+        </class>
+        <line num="24" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="76"/>
+        <line num="26" type="stmt" count="76"/>
+        <line num="27" type="stmt" count="76"/>
+        <line num="28" type="stmt" count="76"/>
+        <line num="29" type="stmt" count="76"/>
+        <line num="30" type="stmt" count="76"/>
+        <line num="38" type="method" name="jwt" visibility="public" complexity="2" crap="2" count="193"/>
+        <line num="41" type="stmt" count="193"/>
+        <line num="42" type="stmt" count="193"/>
+        <line num="43" type="stmt" count="193"/>
+        <line num="44" type="stmt" count="193"/>
+        <line num="46" type="stmt" count="193"/>
+        <line num="52" type="method" name="generateId" visibility="public" complexity="1" crap="1" count="20"/>
+        <line num="54" type="stmt" count="20"/>
+        <line num="55" type="stmt" count="20"/>
+        <line num="57" type="method" name="requestInfo" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="65" type="stmt" count="2"/>
+        <line num="74" type="method" name="sendPassword" visibility="public" complexity="2" crap="2.03" count="6"/>
+        <line num="76" type="stmt" count="6"/>
+        <line num="77" type="stmt" count="6"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="6"/>
+        <line num="82" type="stmt" count="6"/>
+        <line num="84" type="method" name="logActivity" visibility="public" complexity="1" crap="1" count="194"/>
+        <line num="86" type="stmt" count="194"/>
+        <line num="87" type="stmt" count="194"/>
+        <line num="88" type="stmt" count="194"/>
+        <line num="89" type="stmt" count="194"/>
+        <line num="90" type="stmt" count="194"/>
+        <line num="91" type="stmt" count="194"/>
+        <line num="94" type="method" name="returnError" visibility="public" complexity="1" crap="1" count="35"/>
+        <line num="96" type="stmt" count="35"/>
+        <line num="97" type="stmt" count="35"/>
+        <line num="98" type="stmt" count="35"/>
+        <line num="101" type="method" name="returnSuccess" visibility="public" complexity="1" crap="1" count="82"/>
+        <line num="103" type="stmt" count="82"/>
+        <line num="104" type="stmt" count="82"/>
+        <line num="111" type="method" name="processImageUpload" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="116" type="stmt" count="1"/>
+        <line num="124" type="method" name="documentExist" visibility="public" complexity="2" crap="2" count="8"/>
+        <line num="126" type="stmt" count="8"/>
+        <line num="127" type="stmt" count="8"/>
+        <line num="128" type="stmt" count="8"/>
+        <line num="138" type="method" name="imageActions" visibility="public" complexity="3" crap="3.02" count="2"/>
+        <line num="140" type="stmt" count="2"/>
+        <line num="141" type="stmt" count="2"/>
+        <line num="142" type="stmt" count="1"/>
+        <line num="143" type="stmt" count="2"/>
+        <line num="144" type="stmt" count="2"/>
+        <line num="145" type="stmt" count="1"/>
+        <line num="147" type="stmt" count="0"/>
+        <line num="149" type="stmt" count="1"/>
+        <line num="154" type="method" name="checkInput" visibility="public" complexity="2" crap="2" count="7"/>
+        <line num="156" type="stmt" count="7"/>
+        <line num="157" type="stmt" count="7"/>
+        <line num="169" type="method" name="mutateAttributes" visibility="public" complexity="3" crap="3" count="6"/>
+        <line num="171" type="stmt" count="6"/>
+        <line num="172" type="stmt" count="6"/>
+        <line num="174" type="stmt" count="6"/>
+        <line num="175" type="stmt" count="6"/>
+        <line num="176" type="stmt" count="6"/>
+        <line num="177" type="stmt" count="6"/>
+        <line num="179" type="stmt" count="6"/>
+        <line num="183" type="stmt" count="6"/>
+        <line num="194" type="method" name="stringToUcFirst" visibility="private" complexity="2" crap="2" count="6"/>
+        <line num="196" type="stmt" count="6"/>
+        <line num="197" type="stmt" count="6"/>
+        <line num="198" type="stmt" count="6"/>
+        <line num="200" type="stmt" count="6"/>
+        <line num="201" type="stmt" count="6"/>
+        <line num="207" type="method" name="stringToArray" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="209" type="stmt" count="4"/>
+        <line num="210" type="stmt" count="4"/>
+        <line num="218" type="method" name="getName" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="220" type="stmt" count="2"/>
+        <line num="221" type="stmt" count="2"/>
+        <line num="222" type="stmt" count="2"/>
+        <line num="230" type="method" name="deleteDiagnosis" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="232" type="stmt" count="2"/>
+        <line num="233" type="stmt" count="2"/>
+        <metrics loc="234" ncloc="152" classes="1" methods="17" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="71" coveredstatements="69" elements="88" coveredelements="84"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/HelpersExtension.php">
+        <class name="App\Utils\HelpersExtension" namespace="App\Utils">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="9" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/InputData.php">
+        <class name="App\Utils\InputData" namespace="App\Utils">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="22" type="method" name="getInputsData" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="26" type="method" name="getInvalidInputData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <metrics loc="30" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/InputSupplierHelpers.php">
+        <class name="App\Utils\InputSupplierHelpers" namespace="App\Utils">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="15" type="method" name="deleteInput" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <metrics loc="20" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/MockData.php">
+        <class name="App\Utils\MockData" namespace="App\Utils">
+          <metrics complexity="12" methods="12" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="26" coveredelements="24"/>
+        </class>
+        <line num="45" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="208"/>
+        <line num="47" type="stmt" count="208"/>
+        <line num="48" type="stmt" count="208"/>
+        <line num="50" type="method" name="getWrongEmail" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="52" type="stmt" count="8"/>
+        <line num="54" type="method" name="getWrongPassword" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="58" type="method" name="getLoginDetails" visibility="public" complexity="1" crap="1" count="199"/>
+        <line num="60" type="stmt" count="199"/>
+        <line num="63" type="method" name="getPasswordMismatchData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="69" type="method" name="getInvalidToken" visibility="public" complexity="1" crap="1" count="21"/>
+        <line num="71" type="stmt" count="21"/>
+        <line num="73" type="method" name="getNonsenseToken" visibility="public" complexity="1" crap="1" count="15"/>
+        <line num="75" type="stmt" count="15"/>
+        <line num="77" type="method" name="getFakeToken" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="81" type="method" name="getEmptyToken" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="86" type="method" name="getInvalidData" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="90" type="method" name="getWrongChangePassword" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="94" type="method" name="getChangePassword" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <metrics loc="98" ncloc="95" classes="1" methods="12" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="26" coveredelements="24"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/OrderMockData.php">
+        <class name="App\Utils\OrderMockData" namespace="App\Utils">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="57" type="method" name="getOrderData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <metrics loc="63" ncloc="58" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/Queries.php">
+        <class name="App\Utils\Queries" namespace="App\Utils">
+          <metrics complexity="27" methods="12" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="97" coveredstatements="95" elements="109" coveredelements="105"/>
+        </class>
+        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="58"/>
+        <line num="28" type="stmt" count="58"/>
+        <line num="29" type="stmt" count="58"/>
+        <line num="30" type="stmt" count="58"/>
+        <line num="31" type="stmt" count="58"/>
+        <line num="32" type="stmt" count="58"/>
+        <line num="38" type="method" name="queryUser" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="40" type="stmt" count="8"/>
+        <line num="48" type="method" name="changeStatus" visibility="public" complexity="3" crap="3" count="4"/>
+        <line num="50" type="stmt" count="4"/>
+        <line num="51" type="stmt" count="4"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="66" type="method" name="deleteUser" visibility="public" complexity="2" crap="2.03" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="69" type="stmt" count="2"/>
+        <line num="70" type="stmt" count="2"/>
+        <line num="71" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="81" type="method" name="editAccount" visibility="public" complexity="3" crap="3.01" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="97" type="method" name="checkUser" visibility="public" complexity="2" crap="2" count="4"/>
+        <line num="99" type="stmt" count="4"/>
+        <line num="100" type="stmt" count="4"/>
+        <line num="101" type="stmt" count="4"/>
+        <line num="106" type="method" name="getTopDistrictsByAppDownloads" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="108" type="stmt" count="2"/>
+        <line num="109" type="stmt" count="2"/>
+        <line num="110" type="stmt" count="2"/>
+        <line num="111" type="stmt" count="2"/>
+        <line num="115" type="stmt" count="2"/>
+        <line num="118" type="stmt" count="2"/>
+        <line num="128" type="method" name="getMostOrderedProducts" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="131" type="stmt" count="2"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="134" type="stmt" count="1"/>
+        <line num="135" type="stmt" count="1"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="139" type="stmt" count="1"/>
+        <line num="140" type="stmt" count="1"/>
+        <line num="141" type="stmt" count="1"/>
+        <line num="143" type="stmt" count="1"/>
+        <line num="144" type="stmt" count="1"/>
+        <line num="146" type="stmt" count="2"/>
+        <line num="156" type="method" name="getMostOrderedServices" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="158" type="stmt" count="2"/>
+        <line num="159" type="stmt" count="2"/>
+        <line num="160" type="stmt" count="1"/>
+        <line num="162" type="stmt" count="1"/>
+        <line num="163" type="stmt" count="1"/>
+        <line num="164" type="stmt" count="1"/>
+        <line num="165" type="stmt" count="1"/>
+        <line num="166" type="stmt" count="1"/>
+        <line num="167" type="stmt" count="1"/>
+        <line num="168" type="stmt" count="1"/>
+        <line num="169" type="stmt" count="1"/>
+        <line num="170" type="stmt" count="1"/>
+        <line num="171" type="stmt" count="1"/>
+        <line num="173" type="stmt" count="1"/>
+        <line num="174" type="stmt" count="1"/>
+        <line num="175" type="stmt" count="1"/>
+        <line num="176" type="stmt" count="1"/>
+        <line num="177" type="stmt" count="1"/>
+        <line num="178" type="stmt" count="1"/>
+        <line num="179" type="stmt" count="1"/>
+        <line num="180" type="stmt" count="1"/>
+        <line num="182" type="stmt" count="2"/>
+        <line num="193" type="method" name="getActiveMobileUsers" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="195" type="stmt" count="2"/>
+        <line num="196" type="stmt" count="1"/>
+        <line num="197" type="stmt" count="1"/>
+        <line num="202" type="stmt" count="1"/>
+        <line num="203" type="stmt" count="1"/>
+        <line num="205" type="stmt" count="1"/>
+        <line num="206" type="stmt" count="1"/>
+        <line num="207" type="stmt" count="2"/>
+        <line num="210" type="stmt" count="2"/>
+        <line num="217" type="method" name="getNewOrders" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="219" type="stmt" count="3"/>
+        <line num="220" type="stmt" count="2"/>
+        <line num="221" type="stmt" count="2"/>
+        <line num="222" type="stmt" count="2"/>
+        <line num="227" type="stmt" count="2"/>
+        <line num="228" type="stmt" count="2"/>
+        <line num="236" type="method" name="getOrdersByType" visibility="public" complexity="3" crap="3" count="3"/>
+        <line num="238" type="stmt" count="3"/>
+        <line num="239" type="stmt" count="1"/>
+        <line num="240" type="stmt" count="2"/>
+        <line num="241" type="stmt" count="1"/>
+        <line num="243" type="stmt" count="1"/>
+        <line num="244" type="stmt" count="1"/>
+        <line num="246" type="stmt" count="2"/>
+        <metrics loc="248" ncloc="185" classes="1" methods="12" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="97" coveredstatements="95" elements="109" coveredelements="105"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/QueriesExtension.php">
+        <class name="App\Utils\QueriesExtension" namespace="App\Utils">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="9" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/UserMockData.php">
+        <class name="App\Utils\UserMockData" namespace="App\Utils">
+          <metrics complexity="15" methods="15" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="50" coveredelements="50"/>
+        </class>
+        <line num="145" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="65"/>
+        <line num="147" type="stmt" count="65"/>
+        <line num="148" type="stmt" count="65"/>
+        <line num="149" type="method" name="getAdminData" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="151" type="stmt" count="4"/>
+        <line num="154" type="method" name="getMasterAgentData" visibility="public" complexity="1" crap="1" count="59"/>
+        <line num="156" type="stmt" count="59"/>
+        <line num="159" type="method" name="getNewAdmin" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="161" type="stmt" count="9"/>
+        <line num="162" type="stmt" count="9"/>
+        <line num="163" type="stmt" count="9"/>
+        <line num="165" type="method" name="getWrongAdminRole" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="167" type="stmt" count="1"/>
+        <line num="168" type="stmt" count="1"/>
+        <line num="169" type="stmt" count="1"/>
+        <line num="171" type="method" name="getNewOffTaker" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="173" type="stmt" count="2"/>
+        <line num="174" type="stmt" count="2"/>
+        <line num="175" type="stmt" count="2"/>
+        <line num="177" type="method" name="getNewMasterAgent" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="179" type="stmt" count="4"/>
+        <line num="180" type="stmt" count="4"/>
+        <line num="181" type="stmt" count="4"/>
+        <line num="183" type="method" name="getExistingMasterAgent" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="185" type="stmt" count="1"/>
+        <line num="186" type="stmt" count="1"/>
+        <line num="189" type="method" name="getNewDevtPartner" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="191" type="stmt" count="3"/>
+        <line num="192" type="stmt" count="3"/>
+        <line num="193" type="stmt" count="3"/>
+        <line num="195" type="method" name="getAccountRequest" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="197" type="stmt" count="2"/>
+        <line num="198" type="stmt" count="2"/>
+        <line num="199" type="stmt" count="2"/>
+        <line num="201" type="method" name="getInvalidData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="203" type="stmt" count="1"/>
+        <line num="207" type="method" name="getValidVaData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="209" type="stmt" count="1"/>
+        <line num="210" type="stmt" count="1"/>
+        <line num="211" type="stmt" count="1"/>
+        <line num="213" type="method" name="getDuplicateVaPhoneNo" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="215" type="stmt" count="1"/>
+        <line num="216" type="stmt" count="1"/>
+        <line num="219" type="stmt" count="1"/>
+        <line num="224" type="method" name="getInvalidVaData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="226" type="stmt" count="1"/>
+        <line num="229" type="method" name="getNewGovernmentPartner" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="231" type="stmt" count="1"/>
+        <line num="232" type="stmt" count="1"/>
+        <line num="233" type="stmt" count="1"/>
+        <metrics loc="235" ncloc="232" classes="1" methods="15" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="50" coveredelements="50"/>
+      </file>
+      <file name="/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Utils/Validation.php">
+        <class name="App\Utils\Validation" namespace="App\Utils">
+          <metrics complexity="16" methods="16" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="89" coveredstatements="89" elements="105" coveredelements="105"/>
+        </class>
+        <line num="20" type="method" name="validateAdmin" visibility="public" complexity="1" crap="1" count="10"/>
+        <line num="22" type="stmt" count="10"/>
+        <line num="23" type="stmt" count="10"/>
+        <line num="24" type="stmt" count="10"/>
+        <line num="25" type="stmt" count="10"/>
+        <line num="26" type="stmt" count="10"/>
+        <line num="27" type="stmt" count="10"/>
+        <line num="28" type="stmt" count="10"/>
+        <line num="30" type="stmt" count="8"/>
+        <line num="31" type="method" name="validateForgotPassword" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="method" name="validateConfirmPassword" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="39" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="method" name="validateVerifyPasswordToken" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="method" name="validateLogin" visibility="public" complexity="1" crap="1" count="194"/>
+        <line num="52" type="stmt" count="194"/>
+        <line num="53" type="stmt" count="194"/>
+        <line num="56" type="stmt" count="194"/>
+        <line num="60" type="method" name="validateNewAccount" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="62" type="stmt" count="6"/>
+        <line num="63" type="stmt" count="6"/>
+        <line num="64" type="stmt" count="6"/>
+        <line num="65" type="stmt" count="6"/>
+        <line num="66" type="stmt" count="6"/>
+        <line num="67" type="stmt" count="6"/>
+        <line num="68" type="stmt" count="6"/>
+        <line num="69" type="stmt" count="6"/>
+        <line num="70" type="stmt" count="6"/>
+        <line num="71" type="stmt" count="6"/>
+        <line num="72" type="stmt" count="6"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="75" type="method" name="validateAccountRequest" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="77" type="stmt" count="2"/>
+        <line num="78" type="stmt" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="2"/>
+        <line num="82" type="stmt" count="2"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="85" type="method" name="validateContactForm" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="method" name="validateAdminChangePassword" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="95" type="stmt" count="3"/>
+        <line num="96" type="stmt" count="3"/>
+        <line num="99" type="stmt" count="2"/>
+        <line num="100" type="method" name="validateExistingAccount" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="102" type="stmt" count="2"/>
+        <line num="103" type="stmt" count="2"/>
+        <line num="104" type="stmt" count="2"/>
+        <line num="105" type="stmt" count="2"/>
+        <line num="106" type="stmt" count="2"/>
+        <line num="107" type="stmt" count="2"/>
+        <line num="108" type="stmt" count="2"/>
+        <line num="109" type="stmt" count="2"/>
+        <line num="110" type="stmt" count="2"/>
+        <line num="111" type="stmt" count="2"/>
+        <line num="112" type="stmt" count="2"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="115" type="method" name="validateVillageAgentData" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="118" type="stmt" count="3"/>
+        <line num="119" type="stmt" count="3"/>
+        <line num="120" type="stmt" count="3"/>
+        <line num="121" type="stmt" count="3"/>
+        <line num="122" type="stmt" count="3"/>
+        <line num="123" type="stmt" count="3"/>
+        <line num="125" type="stmt" count="2"/>
+        <line num="126" type="method" name="validateLimitAndOffset" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="128" type="stmt" count="8"/>
+        <line num="129" type="stmt" count="8"/>
+        <line num="133" type="stmt" count="8"/>
+        <line num="134" type="method" name="validateInputData" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="136" type="stmt" count="6"/>
+        <line num="137" type="stmt" count="6"/>
+        <line num="138" type="stmt" count="6"/>
+        <line num="139" type="stmt" count="6"/>
+        <line num="140" type="stmt" count="6"/>
+        <line num="141" type="stmt" count="6"/>
+        <line num="142" type="stmt" count="6"/>
+        <line num="143" type="stmt" count="6"/>
+        <line num="144" type="stmt" count="6"/>
+        <line num="146" type="stmt" count="5"/>
+        <line num="147" type="method" name="validateDiagnosisInformation" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="149" type="stmt" count="6"/>
+        <line num="150" type="stmt" count="6"/>
+        <line num="157" type="stmt" count="4"/>
+        <line num="159" type="method" name="validateOurCropsData" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="161" type="stmt" count="4"/>
+        <line num="162" type="stmt" count="4"/>
+        <line num="164" type="stmt" count="2"/>
+        <line num="171" type="method" name="validateAgronomicalInput" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="173" type="stmt" count="3"/>
+        <line num="174" type="stmt" count="3"/>
+        <line num="175" type="stmt" count="3"/>
+        <line num="176" type="stmt" count="3"/>
+        <line num="177" type="stmt" count="3"/>
+        <line num="179" type="stmt" count="2"/>
+        <metrics loc="180" ncloc="169" classes="1" methods="16" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="89" coveredstatements="89" elements="105" coveredelements="105"/>
+      </file>
+    </package>
+    <metrics files="90" loc="5577" ncloc="4248" classes="62" methods="236" coveredmethods="170" conditionals="0" coveredconditionals="0" statements="1364" coveredstatements="1212" elements="1600" coveredelements="1382"/>
+  </project>
+</coverage>

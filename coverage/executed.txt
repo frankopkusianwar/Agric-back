@@ -1,0 +1,284 @@
+AccountRequest
+ [x] Should return offtakers request details
+ [x] Should return masteragent request details
+
+ActivityLog
+ [x] Should return activity logs
+ [x] Should create new activity log
+ [x] Should return active users
+ [x] Should return mobile active users
+ [x] Should return mobile active users with dates
+
+Admin
+ [x] Should return error if no token
+ [x] Should return error if invalid token
+ [x] Should return user if token is valid
+ [x] Should return validation error
+ [x] Should return error if password mismatch
+ [x] Should not activate account if wrong id
+ [x] Should return invalid params
+ [x] Should activate account
+ [x] Should not suspend account if wrong id
+ [x] Should suspend account
+ [x] Should return error if user is not admin
+ [x] Should return activity summary
+ [x] Should return activity summary by date
+ [x] Should return all admins
+ [x] Should return change admin password successful
+ [x] Should return change admin password does not match
+ [x] Should return change admin password catch error
+ [x] Should get user
+ [x] Should not get user
+ [x] Should update and delete users
+ [x] Should return error if update email is taken
+ [x] Should not return user
+ [x] Should not return top performing agents
+ [x] Should not return top performing master agents
+ [x] Should not return top performing village agents
+ [x] Should return error if invalid admin role
+
+AgronomicalInfo
+ [x] Should edit agronomical info
+ [x] Should delete agronomical info
+ [x] Should not delete agronomical info of non existing document
+ [x] Should not edit agronomical info of non existing document
+ [x] Should not edit agronomical info with wrong type
+ [x] Un authorised edit
+ [x] Un authorised delete
+
+Contact
+ [x] Should return send contact form
+
+DevtPartner
+ [x] Should return devt partners
+ [x] Should return devt partners by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+ [x] Should return error if expired token
+ [x] Should return error if user is not admin
+ [x] Should return user if token is valid
+
+Email
+ [x] Should return an error if email does not sent
+ [x] Should return success if email sent
+ [x] Should return an error for reset password
+
+FacebookReport
+ [ ] Should return facebook report
+ [x] Should return error for no token
+ [x] Should return error if invalid token
+
+FarmerAndVillageAgentsOrderStatistics
+ [x] Should return farmer village agents order statistics
+ [x] Should return farmer village agents order statistics by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+FarmerProduce
+ [x] Should return top farmer produce
+ [x] Should return top farmer produce by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+CreateFarmer
+ [x] Should return error if no token
+ [x] Should return error invalid token
+ [x] Should return all farmers
+
+InputCategory
+ [x] Should return number of farmers who ordered inputs of different categories
+ [x] Should return error if no token
+
+ForgotPassword
+ [x] Should return an error if email does not exist
+ [x] Should return success if email exist
+ [x] Should return validation error for invalid email
+ [x] Should return an error if password confirm token does not exist
+ [x] Should return success if password confirm success
+ [x] Should return validation error for empty token
+
+GetDistrict
+ [x] Should return all districts
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+GetEnterprises
+ [x] Should return all enterprises
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+GetMostOrderedProductsAndServices
+ [x] Should return most ordered products and services for district
+ [x] Should return most ordered products and services for enterprise
+ [x] Should return error if invalid query parameter is supplied
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+Government
+ [x] Should return user if token is valid
+
+ImageActions
+ [x] Should successfully upload and delete image
+
+InputSupplier
+ [x] Should return input suppliers
+ [x] Should return input suppliers by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+Input
+ [x] Should get input details
+ [x] Unauthorized when user tried to view input details
+ [x] Should return 404 error
+ [x] Should not update input when id not found
+ [x] Should update input
+ [x] Unauthorized when user tried to update input
+ [x] Should throw exception error
+ [x] Should delete input
+ [x] Should return 404 error on delete request
+ [x] Should return inputs
+ [x] Should create input
+ [x] Should return error if input exist
+ [x] Should catch invalid data
+
+Login
+ [x] Should return an error if wrong email
+ [x] Should return an error if wrong password
+ [x] Should return success on successful login
+
+ManageDiagnosis
+ [x] Should create disease diagnosis
+ [x] Should create pest diagnosis
+ [x] Should catch duplicate name
+ [x] Should catch invalid data
+ [x] Should return all pest diagnosis information
+ [x] Should return all disease diagnosis information
+ [x] Should return single diagnosis information
+ [x] Should correctly edit diagnosis information
+ [x] Should return error if invalid diagnosis is edited
+ [x] Should delete successfully single diagnosis information
+ [x] Should return error if invalid diagnosis information tried to be deleted
+ [x] Should return error if category is invalid
+ [x] Should return not found if diagnosis does not exist
+
+CreateMasterAgent
+ [x] Should return error if no token
+ [x] Should return masteragents
+ [x] Should return error if invalid token
+ [x] Should return user if token is valid
+ [x] Should return error if invalid data
+ [x] Should return error if email exists
+ [x] Should return error if nonsense token
+ [x] Should return error if expired token
+ [x] Should return error if user is not admin
+
+NumberOfVisitors
+ [ ] Should return number of visitors
+
+Offtaker
+ [x] Should return offtakers
+ [x] Should return offtakers by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+ [x] Should return error if no token
+ [x] Should return user if token is valid
+ [x] Should return error if user is not admin
+
+Order
+ [x] Should return completed orders
+ [x] Route requires authentication
+ [x] Should return total orders
+ [x] Should not delete order of unknown i d
+ [x] Should delete order ofknown i d
+ [x] Should return all new orders between date range
+ [x] Should return available stock
+ [x] Should return error if wrong date input
+ [x] Should return received orders
+ [x] Invalid route parameter returns error
+
+OurCrop
+ [x] Should check if our crop is created with valid data
+ [x] Should fail creating crop with invalid data
+ [x] Should return crops
+ [x] Should return single crop
+ [x] Should correctly edit crop information
+ [x] Should delete single crop information successfully
+ [x] Should return error for invalid crop i d on deleted
+ [x] Should return error if invalid crop is edited
+
+TopDistrict
+ [x] Should return top districts
+ [x] Should return top districts by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+TopPerformingDistrict
+ [x] Should return top performing districts
+ [x] Should return district statistics
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+ [x] Should catch exception
+
+TopPerformingMasterAgent
+ [x] Should return top performing master agents
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+ [x] Should return top performing master agents filtered by date location
+
+TopPerformingVillageAgent
+ [x] Should return top performing village agents
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+ [x] Should return top performing village agents filtered by date location
+
+TotalAcreage
+ [x] Should return total acreage
+ [x] Should return total acreage by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+TotalPayment
+ [x] Should return total payment
+ [x] Should return total payment by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+
+TwitterReport
+ [ ] Should return twitter report
+ [x] Should return error for no token
+ [x] Should return error if invalid token
+
+VerifyResetPasswordToken
+ [x] Should return an error if token does not exist
+ [x] Should return validation error for empty token
+ [x] Should return success if token exist
+
+VillageAgent
+ [x] Should return village agents
+ [x] Should return village agents by date
+ [x] Should return error for no token
+ [x] Should return error if nonsense token
+ [x] Should return error if invalid token
+ [x] Should return success for valid va data
+ [x] Should return error for duplicate va phone no
+ [x] Should return error for invalid va data
+
+YoutubeReport
+ [x] Should return youtube report
+ [x] Should return error for no token
+ [x] Should return error if invalid token
+

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app/Http</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/Users/frankokiror/Desktop/esyagric/ezyagric-backend-2019/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Http</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/AnalyticsController.php.html#9">App\Http\Controllers\AnalyticsController</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Middleware/ValidateParams.php.html#7">App\Http\Middleware\ValidateParams</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Middleware/ValidateParams.php.html#7">App\Http\Middleware\ValidateParams</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/UserController.php.html#215"><abbr title="App\Http\Controllers\UserController::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/AnalyticsController.php.html#29"><abbr title="App\Http\Controllers\AnalyticsController::getNumberOfVistors">getNumberOfVistors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/DistrictController.php.html#94"><abbr title="App\Http\Controllers\DistrictController::getDistricts">getDistricts</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Controllers/InputController.php.html#99"><abbr title="App\Http\Controllers\InputController::getInputs">getInputs</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Controllers/OrderController.php.html#39"><abbr title="App\Http\Controllers\OrderController::getOrdersByType">getOrdersByType</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Controllers/OurCropController.php.html#31"><abbr title="App\Http\Controllers\OurCropController::getEnterprises">getEnterprises</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#93"><abbr title="App\Http\Controllers\ReportController::getYoutubeReport">getYoutubeReport</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#58"><abbr title="App\Http\Controllers\UserController::createUser">createUser</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Controllers/AdminController.php.html#44"><abbr title="App\Http\Controllers\AdminController::getAdmins">getAdmins</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Controllers/AnalyticsController.php.html#19"><abbr title="App\Http\Controllers\AnalyticsController::__construct">__construct</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Controllers/InputController.php.html#28"><abbr title="App\Http\Controllers\InputController::getInputDetails">getInputDetails</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#164"><abbr title="App\Http\Controllers\UserController::getUser">getUser</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Middleware/ValidateParams.php.html#16"><abbr title="App\Http\Middleware\ValidateParams::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Controllers/AdminExtendedController.php.html#45"><abbr title="App\Http\Controllers\AdminExtendedController::deleteAccount">deleteAccount</abbr></a></td><td class="text-right">69%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/UserController.php.html#215"><abbr title="App\Http\Controllers\UserController::getUsers">getUsers</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/AdminExtendedController.php.html#45"><abbr title="App\Http\Controllers\AdminExtendedController::deleteAccount">deleteAccount</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#58"><abbr title="App\Http\Controllers\UserController::createUser">createUser</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/AdminController.php.html#44"><abbr title="App\Http\Controllers\AdminController::getAdmins">getAdmins</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/InputController.php.html#28"><abbr title="App\Http\Controllers\InputController::getInputDetails">getInputDetails</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#164"><abbr title="App\Http\Controllers\UserController::getUser">getUser</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Controllers/DistrictController.php.html#94"><abbr title="App\Http\Controllers\DistrictController::getDistricts">getDistricts</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controllers/InputController.php.html#99"><abbr title="App\Http\Controllers\InputController::getInputs">getInputs</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controllers/OrderController.php.html#39"><abbr title="App\Http\Controllers\OrderController::getOrdersByType">getOrdersByType</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controllers/OurCropController.php.html#31"><abbr title="App\Http\Controllers\OurCropController::getEnterprises">getEnterprises</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#93"><abbr title="App\Http\Controllers\ReportController::getYoutubeReport">getYoutubeReport</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Middleware/ValidateParams.php.html#16"><abbr title="App\Http\Middleware\ValidateParams::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.3.7</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> and <a href="https://phpunit.de/">PHPUnit 7.5.15</a> at Fri Sep 13 18:33:58 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,1,0,0,0,0,1,3,10,3,10], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([2,0,0,0,0,0,4,8,11,21,2,46], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,4,"<a href=\"Controllers\/ActivityController.php.html#15\">App\\Http\\Controllers\\ActivityController<\/a>"],[86.25,25,"<a href=\"Controllers\/AdminController.php.html#17\">App\\Http\\Controllers\\AdminController<\/a>"],[89.0625,14,"<a href=\"Controllers\/AdminExtendedController.php.html#18\">App\\Http\\Controllers\\AdminExtendedController<\/a>"],[86.66666666666667,12,"<a href=\"Controllers\/AgronomicalController.php.html#9\">App\\Http\\Controllers\\AgronomicalController<\/a>"],[15.384615384615385,2,"<a href=\"Controllers\/AnalyticsController.php.html#9\">App\\Http\\Controllers\\AnalyticsController<\/a>"],[85.24590163934425,16,"<a href=\"Controllers\/AuthController.php.html#16\">App\\Http\\Controllers\\AuthController<\/a>"],[100,4,"<a href=\"Controllers\/ContactController.php.html#9\">App\\Http\\Controllers\\ContactController<\/a>"],[100,0,"<a href=\"Controllers\/Controller.php.html#7\">App\\Http\\Controllers\\Controller<\/a>"],[90,5,"<a href=\"Controllers\/DevtPartnerController.php.html#13\">App\\Http\\Controllers\\DevtPartnerController<\/a>"],[86.95652173913044,16,"<a href=\"Controllers\/DiagnosisController.php.html#12\">App\\Http\\Controllers\\DiagnosisController<\/a>"],[90.9090909090909,12,"<a href=\"Controllers\/DistrictController.php.html#13\">App\\Http\\Controllers\\DistrictController<\/a>"],[100,1,"<a href=\"Controllers\/FarmerController.php.html#9\">App\\Http\\Controllers\\FarmerController<\/a>"],[87.5,6,"<a href=\"Controllers\/FarmerProduceController.php.html#12\">App\\Http\\Controllers\\FarmerProduceController<\/a>"],[100,3,"<a href=\"Controllers\/FarmersOrderController.php.html#11\">App\\Http\\Controllers\\FarmersOrderController<\/a>"],[84.90566037735849,17,"<a href=\"Controllers\/InputController.php.html#13\">App\\Http\\Controllers\\InputController<\/a>"],[71.42857142857143,4,"<a href=\"Controllers\/MapCordinatesController.php.html#12\">App\\Http\\Controllers\\MapCordinatesController<\/a>"],[100,2,"<a href=\"Controllers\/MasterAgentController.php.html#12\">App\\Http\\Controllers\\MasterAgentController<\/a>"],[84.61538461538461,9,"<a href=\"Controllers\/OrderController.php.html#12\">App\\Http\\Controllers\\OrderController<\/a>"],[87.8048780487805,16,"<a href=\"Controllers\/OurCropController.php.html#11\">App\\Http\\Controllers\\OurCropController<\/a>"],[78.37837837837837,13,"<a href=\"Controllers\/ReportController.php.html#16\">App\\Http\\Controllers\\ReportController<\/a>"],[92.5925925925926,3,"<a href=\"Controllers\/TotalPaymentController.php.html#14\">App\\Http\\Controllers\\TotalPaymentController<\/a>"],[74.57627118644068,33,"<a href=\"Controllers\/UserController.php.html#16\">App\\Http\\Controllers\\UserController<\/a>"],[100,5,"<a href=\"Middleware\/Authenticate.php.html#8\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,3,"<a href=\"Middleware\/AuthenticateAdmin.php.html#8\">App\\Http\\Middleware\\AuthenticateAdmin<\/a>"],[85.71428571428571,3,"<a href=\"Middleware\/Cors.php.html#6\">App\\Http\\Middleware\\Cors<\/a>"],[100,4,"<a href=\"Middleware\/DocumentExist.php.html#7\">App\\Http\\Middleware\\DocumentExist<\/a>"],[100,3,"<a href=\"Middleware\/ValidateDiagnosisCategory.php.html#7\">App\\Http\\Middleware\\ValidateDiagnosisCategory<\/a>"],[66.66666666666666,2,"<a href=\"Middleware\/ValidateParams.php.html#7\">App\\Http\\Middleware\\ValidateParams<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Controllers\/ActivityController.php.html#27\">App\\Http\\Controllers\\ActivityController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/ActivityController.php.html#38\">App\\Http\\Controllers\\ActivityController::getActivityLog<\/a>"],[100,1,"<a href=\"Controllers\/ActivityController.php.html#46\">App\\Http\\Controllers\\ActivityController::getPercentages<\/a>"],[100,1,"<a href=\"Controllers\/ActivityController.php.html#61\">App\\Http\\Controllers\\ActivityController::getActivitySummary<\/a>"],[100,1,"<a href=\"Controllers\/AdminController.php.html#31\">App\\Http\\Controllers\\AdminController::__construct<\/a>"],[66.66666666666666,3,"<a href=\"Controllers\/AdminController.php.html#44\">App\\Http\\Controllers\\AdminController::getAdmins<\/a>"],[83.33333333333334,5,"<a href=\"Controllers\/AdminController.php.html#64\">App\\Http\\Controllers\\AdminController::createAdmin<\/a>"],[100,3,"<a href=\"Controllers\/AdminController.php.html#91\">App\\Http\\Controllers\\AdminController::changePassword<\/a>"],[90.47619047619048,7,"<a href=\"Controllers\/AdminController.php.html#113\">App\\Http\\Controllers\\AdminController::getTopAgents<\/a>"],[77.77777777777779,3,"<a href=\"Controllers\/AdminController.php.html#144\">App\\Http\\Controllers\\AdminController::villageAgent<\/a>"],[77.77777777777779,3,"<a href=\"Controllers\/AdminController.php.html#161\">App\\Http\\Controllers\\AdminController::masterAgent<\/a>"],[100,1,"<a href=\"Controllers\/AdminExtendedController.php.html#32\">App\\Http\\Controllers\\AdminExtendedController::__construct<\/a>"],[69.23076923076923,4,"<a href=\"Controllers\/AdminExtendedController.php.html#45\">App\\Http\\Controllers\\AdminExtendedController::deleteAccount<\/a>"],[84.21052631578947,5,"<a href=\"Controllers\/AdminExtendedController.php.html#72\">App\\Http\\Controllers\\AdminExtendedController::editAccount<\/a>"],[100,2,"<a href=\"Controllers\/AdminExtendedController.php.html#106\">App\\Http\\Controllers\\AdminExtendedController::editVillageAgents<\/a>"],[100,2,"<a href=\"Controllers\/AdminExtendedController.php.html#124\">App\\Http\\Controllers\\AdminExtendedController::getUsers<\/a>"],[100,1,"<a href=\"Controllers\/AgronomicalController.php.html#14\">App\\Http\\Controllers\\AgronomicalController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/AgronomicalController.php.html#25\">App\\Http\\Controllers\\AgronomicalController::getSpecificId<\/a>"],[100,3,"<a href=\"Controllers\/AgronomicalController.php.html#31\">App\\Http\\Controllers\\AgronomicalController::imageUpload<\/a>"],[86.66666666666667,4,"<a href=\"Controllers\/AgronomicalController.php.html#55\">App\\Http\\Controllers\\AgronomicalController::updateAgronomicalInfo<\/a>"],[75,3,"<a href=\"Controllers\/AgronomicalController.php.html#87\">App\\Http\\Controllers\\AgronomicalController::deleteAgronomicalInfo<\/a>"],[66.66666666666666,1,"<a href=\"Controllers\/AnalyticsController.php.html#19\">App\\Http\\Controllers\\AnalyticsController::__construct<\/a>"],[0,1,"<a href=\"Controllers\/AnalyticsController.php.html#29\">App\\Http\\Controllers\\AnalyticsController::getNumberOfVistors<\/a>"],[100,1,"<a href=\"Controllers\/AuthController.php.html#33\">App\\Http\\Controllers\\AuthController::__construct<\/a>"],[82.35294117647058,5,"<a href=\"Controllers\/AuthController.php.html#47\">App\\Http\\Controllers\\AuthController::authenticate<\/a>"],[87.5,3,"<a href=\"Controllers\/AuthController.php.html#82\">App\\Http\\Controllers\\AuthController::forgotPassword<\/a>"],[85.71428571428571,4,"<a href=\"Controllers\/AuthController.php.html#114\">App\\Http\\Controllers\\AuthController::confirmPassword<\/a>"],[77.77777777777779,3,"<a href=\"Controllers\/AuthController.php.html#143\">App\\Http\\Controllers\\AuthController::verifyResetPasswordToken<\/a>"],[100,1,"<a href=\"Controllers\/ContactController.php.html#26\">App\\Http\\Controllers\\ContactController::__construct<\/a>"],[100,3,"<a href=\"Controllers\/ContactController.php.html#38\">App\\Http\\Controllers\\ContactController::sendContactForm<\/a>"],[100,1,"<a href=\"Controllers\/DevtPartnerController.php.html#28\">App\\Http\\Controllers\\DevtPartnerController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/DevtPartnerController.php.html#43\">App\\Http\\Controllers\\DevtPartnerController::getDevtPartners<\/a>"],[76.92307692307693,3,"<a href=\"Controllers\/DevtPartnerController.php.html#64\">App\\Http\\Controllers\\DevtPartnerController::createDevtPartner<\/a>"],[100,1,"<a href=\"Controllers\/DiagnosisController.php.html#22\">App\\Http\\Controllers\\DiagnosisController::__construct<\/a>"],[77.77777777777779,2,"<a href=\"Controllers\/DiagnosisController.php.html#34\">App\\Http\\Controllers\\DiagnosisController::getDiagnosis<\/a>"],[100,3,"<a href=\"Controllers\/DiagnosisController.php.html#59\">App\\Http\\Controllers\\DiagnosisController::deleteDiagnosis<\/a>"],[80,5,"<a href=\"Controllers\/DiagnosisController.php.html#83\">App\\Http\\Controllers\\DiagnosisController::editDiagnosisInformation<\/a>"],[87.5,5,"<a href=\"Controllers\/DiagnosisController.php.html#118\">App\\Http\\Controllers\\DiagnosisController::createDiagnosis<\/a>"],[100,1,"<a href=\"Controllers\/DistrictController.php.html#22\">App\\Http\\Controllers\\DistrictController::__construct<\/a>"],[100,5,"<a href=\"Controllers\/DistrictController.php.html#34\">App\\Http\\Controllers\\DistrictController::getTopDistricts<\/a>"],[86.66666666666667,4,"<a href=\"Controllers\/DistrictController.php.html#64\">App\\Http\\Controllers\\DistrictController::getTopPerformingDistricts<\/a>"],[50,2,"<a href=\"Controllers\/DistrictController.php.html#94\">App\\Http\\Controllers\\DistrictController::getDistricts<\/a>"],[100,1,"<a href=\"Controllers\/FarmerController.php.html#17\">App\\Http\\Controllers\\FarmerController::getFarmers<\/a>"],[87.5,6,"<a href=\"Controllers\/FarmerProduceController.php.html#19\">App\\Http\\Controllers\\FarmerProduceController::getTopFarmProduce<\/a>"],[100,2,"<a href=\"Controllers\/FarmersOrderController.php.html#17\">App\\Http\\Controllers\\FarmersOrderController::getTransformedOrders<\/a>"],[100,1,"<a href=\"Controllers\/FarmersOrderController.php.html#38\">App\\Http\\Controllers\\FarmersOrderController::getNumberOfFarmersWhoOrderedDifferentInputCategories<\/a>"],[100,1,"<a href=\"Controllers\/InputController.php.html#18\">App\\Http\\Controllers\\InputController::__construct<\/a>"],[66.66666666666666,3,"<a href=\"Controllers\/InputController.php.html#28\">App\\Http\\Controllers\\InputController::getInputDetails<\/a>"],[100,4,"<a href=\"Controllers\/InputController.php.html#44\">App\\Http\\Controllers\\InputController::updateInput<\/a>"],[77.77777777777779,3,"<a href=\"Controllers\/InputController.php.html#80\">App\\Http\\Controllers\\InputController::deleteInput<\/a>"],[50,2,"<a href=\"Controllers\/InputController.php.html#99\">App\\Http\\Controllers\\InputController::getInputs<\/a>"],[87.5,4,"<a href=\"Controllers\/InputController.php.html#112\">App\\Http\\Controllers\\InputController::createInput<\/a>"],[71.42857142857143,4,"<a href=\"Controllers\/MapCordinatesController.php.html#20\">App\\Http\\Controllers\\MapCordinatesController::getTotalAcreage<\/a>"],[100,1,"<a href=\"Controllers\/MasterAgentController.php.html#21\">App\\Http\\Controllers\\MasterAgentController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/MasterAgentController.php.html#32\">App\\Http\\Controllers\\MasterAgentController::getMasterAgents<\/a>"],[100,1,"<a href=\"Controllers\/OrderController.php.html#16\">App\\Http\\Controllers\\OrderController::__construct<\/a>"],[100,2,"<a href=\"Controllers\/OrderController.php.html#25\">App\\Http\\Controllers\\OrderController::getOrders<\/a>"],[50,2,"<a href=\"Controllers\/OrderController.php.html#39\">App\\Http\\Controllers\\OrderController::getOrdersByType<\/a>"],[84.61538461538461,3,"<a href=\"Controllers\/OrderController.php.html#53\">App\\Http\\Controllers\\OrderController::getInputsStock<\/a>"],[100,1,"<a href=\"Controllers\/OrderController.php.html#79\">App\\Http\\Controllers\\OrderController::deleteOrderOfId<\/a>"],[100,1,"<a href=\"Controllers\/OurCropController.php.html#19\">App\\Http\\Controllers\\OurCropController::__construct<\/a>"],[50,2,"<a href=\"Controllers\/OurCropController.php.html#31\">App\\Http\\Controllers\\OurCropController::getEnterprises<\/a>"],[100,3,"<a href=\"Controllers\/OurCropController.php.html#45\">App\\Http\\Controllers\\OurCropController::addCrop<\/a>"],[100,1,"<a href=\"Controllers\/OurCropController.php.html#69\">App\\Http\\Controllers\\OurCropController::getCrops<\/a>"],[71.42857142857143,2,"<a href=\"Controllers\/OurCropController.php.html#80\">App\\Http\\Controllers\\OurCropController::getCrop<\/a>"],[85.71428571428571,3,"<a href=\"Controllers\/OurCropController.php.html#99\">App\\Http\\Controllers\\OurCropController::deleteCrop<\/a>"],[100,4,"<a href=\"Controllers\/OurCropController.php.html#118\">App\\Http\\Controllers\\OurCropController::editCrop<\/a>"],[100,1,"<a href=\"Controllers\/ReportController.php.html#24\">App\\Http\\Controllers\\ReportController::__construct<\/a>"],[81.81818181818183,4,"<a href=\"Controllers\/ReportController.php.html#35\">App\\Http\\Controllers\\ReportController::getMostOrdered<\/a>"],[81.81818181818183,2,"<a href=\"Controllers\/ReportController.php.html#58\">App\\Http\\Controllers\\ReportController::getFarmerAgentsOrderStatistics<\/a>"],[75,2,"<a href=\"Controllers\/ReportController.php.html#79\">App\\Http\\Controllers\\ReportController::getTwitterReport<\/a>"],[60,2,"<a href=\"Controllers\/ReportController.php.html#93\">App\\Http\\Controllers\\ReportController::getYoutubeReport<\/a>"],[75,2,"<a href=\"Controllers\/ReportController.php.html#108\">App\\Http\\Controllers\\ReportController::getFacebookReport<\/a>"],[100,1,"<a href=\"Controllers\/TotalPaymentController.php.html#16\">App\\Http\\Controllers\\TotalPaymentController::getPaymentSum<\/a>"],[90.47619047619048,2,"<a href=\"Controllers\/TotalPaymentController.php.html#31\">App\\Http\\Controllers\\TotalPaymentController::getTotalPayment<\/a>"],[100,1,"<a href=\"Controllers\/UserController.php.html#26\">App\\Http\\Controllers\\UserController::__construct<\/a>"],[80,3,"<a href=\"Controllers\/UserController.php.html#37\">App\\Http\\Controllers\\UserController::requestAccount<\/a>"],[62.5,3,"<a href=\"Controllers\/UserController.php.html#58\">App\\Http\\Controllers\\UserController::createUser<\/a>"],[84.61538461538461,2,"<a href=\"Controllers\/UserController.php.html#73\">App\\Http\\Controllers\\UserController::getAllActiveUsers<\/a>"],[81.81818181818183,2,"<a href=\"Controllers\/UserController.php.html#91\">App\\Http\\Controllers\\UserController::getActiveMobileUsers<\/a>"],[100,4,"<a href=\"Controllers\/UserController.php.html#110\">App\\Http\\Controllers\\UserController::isInvalidVaData<\/a>"],[100,3,"<a href=\"Controllers\/UserController.php.html#125\">App\\Http\\Controllers\\UserController::getVaFromInput<\/a>"],[85.71428571428571,4,"<a href=\"Controllers\/UserController.php.html#145\">App\\Http\\Controllers\\UserController::addVillageAgents<\/a>"],[66.66666666666666,3,"<a href=\"Controllers\/UserController.php.html#164\">App\\Http\\Controllers\\UserController::getUser<\/a>"],[88.23529411764706,6,"<a href=\"Controllers\/UserController.php.html#181\">App\\Http\\Controllers\\UserController::accountAction<\/a>"],[0,2,"<a href=\"Controllers\/UserController.php.html#215\">App\\Http\\Controllers\\UserController::getUsers<\/a>"],[100,5,"<a href=\"Middleware\/Authenticate.php.html#17\">App\\Http\\Middleware\\Authenticate::handle<\/a>"],[100,1,"<a href=\"Middleware\/AuthenticateAdmin.php.html#13\">App\\Http\\Middleware\\AuthenticateAdmin::__construct<\/a>"],[100,2,"<a href=\"Middleware\/AuthenticateAdmin.php.html#25\">App\\Http\\Middleware\\AuthenticateAdmin::handle<\/a>"],[85.71428571428571,3,"<a href=\"Middleware\/Cors.php.html#15\">App\\Http\\Middleware\\Cors::handle<\/a>"],[100,1,"<a href=\"Middleware\/DocumentExist.php.html#14\">App\\Http\\Middleware\\DocumentExist::__construct<\/a>"],[100,3,"<a href=\"Middleware\/DocumentExist.php.html#26\">App\\Http\\Middleware\\DocumentExist::handle<\/a>"],[100,3,"<a href=\"Middleware\/ValidateDiagnosisCategory.php.html#16\">App\\Http\\Middleware\\ValidateDiagnosisCategory::handle<\/a>"],[66.66666666666666,2,"<a href=\"Middleware\/ValidateParams.php.html#16\">App\\Http\\Middleware\\ValidateParams::handle<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
